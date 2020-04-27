@@ -1,0 +1,23 @@
+$white-200:#F4F4F4;
+$grey-700: #787878;
+$red-900: #AF1111;
+$red-300: #860B0B;
+
+$linear-gradient: linear-gradient(92.94deg, $red-900 0%, $red-300 100%);
+$radial-gradient: radial-gradient($red-300, $red-900);
+
+$header-footer-height: 2.5rem;
+
+$xs: 575px;
+$sm: 767px;
+$md: 991px;
+$lg: 1199px;
+$xl: 1200px;
+
+@mixin shadowed {
+    box-shadow: 0px 4px 9px rgba(0, 0, 0, 0.25);
+}
+
+@mixin shadowed-up {
+    box-shadow: 0px -4px 9px rgba(0, 0, 0, 0.25);
+}

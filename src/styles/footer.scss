@@ -1,0 +1,10 @@
+footer {
+    @include shadowed-up;
+    background: $linear-gradient;
+    width: 100%;
+    font-size: 12px;
+
+    img {
+        height: calc(#{$header-footer-height} - 1px);
+    }
+}

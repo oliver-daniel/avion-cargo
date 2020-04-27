@@ -1,0 +1,7 @@
+.Page {
+    >.container {
+        min-height: calc(99vh - 2 * #{$header-footer-height});
+        padding-top: $header-footer-height;
+        padding-bottom: $header-footer-height;
+    }
+}
