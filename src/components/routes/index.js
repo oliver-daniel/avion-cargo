@@ -1,5 +1,4 @@
-import Homepage from '../../containers/home';
-import LandingPage from '../../pages/';
+import HomePage from '../../containers/home'
 import TestPage from '../../containers/test'
 
 const ROUTES = {
@@ -11,7 +10,7 @@ const ROUTES = {
             href: ''
         },
         title: "Home",
-        Component: TestPage
+        Component: HomePage
     },
     about: {
         en: {
@@ -21,7 +20,7 @@ const ROUTES = {
             href: 'equipe',
         },
         title: "About Us",
-        Component: Homepage,
+        Component: TestPage,
     },
     projects: {
         en: {
@@ -31,7 +30,7 @@ const ROUTES = {
             href: 'projets',
         },
         title: "Projects",
-        Component: Homepage,
+        Component: TestPage,
     },
     contact: {
         en: {
@@ -41,7 +40,7 @@ const ROUTES = {
             href: 'contact',
         },
         title: "Contact",
-        Component: Homepage,
+        Component: TestPage,
     },
 };
 
