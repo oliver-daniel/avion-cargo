@@ -4,17 +4,17 @@ import routes from "../../components/routes";
 
 import { withTranslation } from "react-i18next";
 
-const LanguageSensitivePage = ({ lang, route = "", tReady, t }) => {  
-  const entry = Object.values(routes).find(
-    (entry) => entry[lang].href === route
-  );
+const LanguageSensitivePage = ({ lang, route = "home", tReady, t }) => {
+  const entry =
+    route === "home"
+      ? routes.home
+      : Object.values(routes).find((entry) => entry[lang].href === route);
   const { Component, title } = entry;
-  
 
   return (
-    <Page>
+    <Page id={route}>
       <Head>
-        <title>{t(title)}</title>
+        <title>{t(title)} | Avion Cargo</title>
       </Head>
       {
         tReady ? <Component /> : <div>Loading...</div>
@@ -27,6 +27,9 @@ const LanguageSensitivePage = ({ lang, route = "", tReady, t }) => {
 export async function getStaticPaths() {
   const paths = [];
   Object.values(routes).forEach(({ en, fr }) => {
+    if (en.href === "") {
+      return;
+    }
     paths.push({
       params: {
         lang: "en",
@@ -40,7 +43,7 @@ export async function getStaticPaths() {
       },
     });
   });
-  
+
   return {
     paths,
     fallback: false,

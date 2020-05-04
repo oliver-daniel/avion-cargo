@@ -17,8 +17,8 @@ const NavLink = ({
 
   if (routes.hasOwnProperty(route) && route !== "home") {
     as += "/" + routes[route][i18n.language].href;
-  } else if (route === "blog"){
-    as += "/blog"
+  } else if (route === "blog") {
+    as += "/blog";
   }
 
   if (typeof window !== "undefined") {

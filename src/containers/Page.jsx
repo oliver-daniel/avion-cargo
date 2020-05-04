@@ -1,7 +1,7 @@
 import Header from "../components/header/Header";
 import Footer from "../components/footer/Footer";
 
-const Page = ({ children, id, ...props }) => (
+const Page = ({ children, ...props }) => (
   <div className="Page" {...props}>
     <Header />
     {children}

@@ -4,14 +4,25 @@
 @import 'footer';
 @import 'page';
 
+@import 'home';
+
 html,
 body {
-    padding: 0;
-    margin: 0;
     background: $white-200;
     font-family: 'Montserrat', Arial, Helvetica, sans-serif;
     color: $grey-700;
     
+}
+
+// TYPOGRAPHY
+h1 {
+    font-weight: bold;
+    font-size: 36px;
+    color: $grey-700;
+    .keyword {
+        color: $red-300;
+    }
+    margin: .3em 0;
 }
 
 header,

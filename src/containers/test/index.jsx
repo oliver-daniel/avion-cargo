@@ -1,48 +1,88 @@
-import Page from "../../containers/Page";
 import { Trans } from "react-i18next";
+import { Carousel } from "react-responsive-carousel";
+
+const CAROUSEL_CONFIG = {
+  showThumbs: false,
+  showStatus: false,
+  useKeyboardArrows: false,
+  // emulateTouch: false,
+  swipeable: false,
+  autoPlay: true,
+  infiniteLoop: true,
+  interval: 3000,
+};
+
+// TODO: duration bar
+
 export default () => (
-  <div className="container">
-    <h1>
-      <Trans>Welcome!</Trans>
-    </h1>
-    <p>
-      Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod facilis qui
-      quam recusandae ipsum perferendis voluptas reiciendis earum dignissimos
-      numquam voluptate id, accusamus labore ducimus unde fugit a voluptatem
-      quidem sequi incidunt. Eius sunt deserunt minus, pariatur quia vel iure
-      eos delectus in suscipit consequatur iste! Veritatis qui voluptate
-      suscipit.
-    </p>
-    <p>
-      Quos quidem numquam commodi impedit eligendi reiciendis quasi possimus
-      recusandae dicta sequi ratione obcaecati qui ipsum adipisci ipsa
-      dignissimos, sunt velit aut culpa atque eius. Ipsam perferendis cumque
-      temporibus nihil debitis saepe laboriosam sequi voluptates a nisi amet
-      tenetur non excepturi, esse enim iusto? Tenetur iste possimus reiciendis
-      neque maiores!
-    </p>
-    <p>
-      Sapiente, unde architecto labore sint facilis porro, fugiat temporibus,
-      amet placeat voluptates dignissimos quis et ullam! Necessitatibus numquam
-      natus sapiente. Itaque perspiciatis rem iste dicta repellat corporis,
-      molestiae aspernatur obcaecati inventore pariatur nemo, provident modi
-      porro? Unde minus corrupti architecto. Illum ratione a maiores facere
-      sapiente commodi aut. Provident, qui.
-    </p>
-    <p>
-      Beatae debitis quo illo error quos ipsam aut itaque ipsum temporibus
-      quibusdam fuga earum at odit commodi velit in facilis accusamus,
-      reprehenderit magnam tempora cumque laborum corrupti! Enim dignissimos
-      tenetur aliquam dolores incidunt quae a, fugiat quasi pariatur libero
-      excepturi asperiores illo corporis iusto quis vero sed vitae sapiente. A.
-    </p>
-    <p>
-      Maiores iusto voluptatibus ut, laborum qui provident tempora
-      exercitationem temporibus accusantium doloremque aut illo ducimus error
-      voluptates ipsum natus modi fugit amet deleniti necessitatibus cumque
-      nihil, atque expedita. Modi, similique nesciunt vitae blanditiis
-      aspernatur, a officia ab vel cumque aperiam sequi. Ad excepturi
-      praesentium molestiae nesciunt fugiat recusandae laboriosam itaque!
-    </p>
-  </div>
+  <>
+    <Carousel {...CAROUSEL_CONFIG}>
+      {[1, 1, 1].map(() => (
+        <div>
+          <img
+            src={"https://source.unsplash.com/1600x900/?sp=" + Math.random()}
+            alt=""
+          />
+          <p className="legend">Photo!</p>
+        </div>
+      ))}
+    </Carousel>
+    <div id="carousel-overlay">
+      <Trans>SEE OUR IDEAS TAKE FLIGHT.</Trans>
+    </div>
+    <div className="content">
+      <h1>
+        LOREM IPSUM DOLOR SIT <span className="keyword">AMET.</span>
+      </h1>
+      <div className="container">
+        <div className="row">
+          <div className="col-xs">
+            <p>
+              Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sequi id
+              nulla veniam consectetur ut veritatis nam quaerat animi aliquam,
+              ducimus tenetur atque nemo, distinctio reiciendis totam ab, ea
+              nobis maxime at. Natus, ex explicabo, optio, quos voluptas non
+              praesentium sit sunt quisquam possimus iure officia? Commodi
+              laudantium mollitia fugiat magni officiis ratione corrupti
+              explicabo rem, doloribus reprehenderit animi hic necessitatibus
+              voluptatem iste labore! Veritatis sit quam earum consequatur.
+              Molestias, earum. Ipsam modi odio, magnam eligendi sit quos in
+              temporibus, inventore laboriosam amet illo blanditiis nostrum
+              perspiciatis! Eius quis minima velit harum saepe odio suscipit
+              amet asperiores eaque qui, minus illo cupiditate voluptate dicta
+              eligendi mollitia! Dolorem in, officia nobis quo repudiandae
+              deleniti nisi necessitatibus, ad eius sequi corrupti aliquid
+              eligendi quae ab dolorum. Tempore dolorem libero distinctio quos,
+              commodi iusto quia maiores quae beatae. Nam dolor repellat maiores
+              dignissimos quis fuga voluptatem dolore recusandae, beatae tempora
+              excepturi illum error voluptatibus?
+            </p>
+            <p>
+              Lorem ipsum, dolor sit amet consectetur adipisicing elit. Natus
+              neque magni at eligendi eos facilis cumque id tempore ex
+              consequatur consequuntur iste, officiis aspernatur accusamus
+              dolore! Rerum pariatur assumenda tempore debitis harum ducimus
+              reprehenderit. Nihil eum molestias dignissimos iure quam vel ad
+              quisquam repellendus corporis animi incidunt blanditiis sit modi
+              dolorem quibusdam aut provident, quidem sequi. Alias, distinctio
+              numquam nobis eligendi sint vel at, consequatur odit ipsum
+              voluptatem earum autem dolorem quasi. Sunt assumenda a molestiae
+              necessitatibus natus, quo autem non vel. Enim dolorem deleniti,
+              eaque nisi itaque eum aperiam reiciendis maxime nemo ipsa nostrum
+              facilis accusamus hic sed dolor a quod repellat rem illo
+              voluptatem provident, veniam obcaecati adipisci. Ullam reiciendis
+              at cupiditate pariatur, sapiente maiores eum repellendus vero
+              nesciunt fugit exercitationem id dolor ex, aperiam animi corrupti
+              totam assumenda, alias mollitia. Perferendis doloremque
+              accusantium, consectetur praesentium labore laudantium eos ducimus
+              obcaecati ut, adipisci qui! Alias omnis doloribus cum!
+            </p>
+          </div>
+          <div className="col-xs-12 col-md-6">
+            You can put any other content you'd like here.
+          </div>
+        </div>
+      </div>
+    </div>
+  </>
 );

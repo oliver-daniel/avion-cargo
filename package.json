@@ -17,6 +17,7 @@
     "react": "16.13.1",
     "react-dom": "16.13.1",
     "react-i18next": "^11.3.4",
+    "react-responsive-carousel": "^3.2.5",
     "reset-css": "^5.0.1",
     "sass": "^1.26.3"
   },
