@@ -1,5 +1,6 @@
 import * as Feather from "react-feather";
 import { Trans, withTranslation } from "react-i18next";
+import Tooltip from "react-tooltip";
 
 const SOCIALS = [
   {
@@ -17,6 +18,11 @@ const SOCIALS = [
   {
     href: "https://www.youtube.com/channel/UCuMNYOMKZq8DYLp2nsn_FOA",
     Icon: Feather.Youtube,
+  },
+  {
+    Icon: () => (
+      <Feather.Mail className="icon" size={40} data-tip data-for="email" />
+    ),
   },
 ];
 
@@ -37,19 +43,27 @@ const ContactPage = ({ t, i18n }) => {
                   {SOCIALS.map(({ href, Icon }) => (
                     <div className="col-xs-12 col-sm-6">
                       <a href={href} target="_blank">
-                        <Icon className="icon" size={40} ></Icon>
+                        <Icon className="icon" size={40} />
                       </a>
                     </div>
                   ))}
                 </div>
+                <div className="row center-xs"></div>
               </div>
               <div className="col-xs col-sm-offset-1 center-xs">
-                <form action="https://formspree.io/avioncargo@polymtl.ca" method="POST">
+                <form
+                  action="https://formspree.io/avioncargo@polymtl.ca"
+                  method="POST"
+                >
                   <label className="form-title" htmlFor="">
                     <Trans>Drop us a line</Trans>
                   </label>
-                  <input type="hidden" name="subject" value={t("You've got mail!")}/>
-                  <input type="hidden" name="_language" value={i18n.language}/>
+                  <input
+                    type="hidden"
+                    name="subject"
+                    value={t("You've got mail!")}
+                  />
+                  <input type="hidden" name="_language" value={i18n.language} />
                   <div>
                     <input type="text" name="name" placeholder={t("Name")} />
                   </div>
@@ -70,6 +84,39 @@ const ContactPage = ({ t, i18n }) => {
           </div>
         </div>
       </div>
+      <Tooltip
+        id="email"
+        aria-haspopup
+        effect="solid"
+        place="bottom"
+        delayHide={500}
+        delayUpdate={200}
+      >
+        {/* TODO: get Yankee for this! */}
+        <div className="row tooltip">
+          <div className="col-xs">
+            Local: C-572 Envois postaux: <br />
+            <br />
+            École Polytechnique de Montréal <br />
+            À l'attention de l'Avion Cargo <br />
+            Campus de l'Université de Montréal <br />
+            Case postale 6079, Succursale "Centre-Ville" <br />
+            Montréal (Québec), H3C 3A7
+          </div>
+          <div className="col-xs">
+            Expédition et livraison:
+            <br />
+            <br />
+            École Polytechnique de Montréal <br />
+            À l'attention de l'Avion Cargo <br />
+            Campus de l'Université de Montréal <br />
+            2900 Édouard Montpetit <br />
+            Montréal (Québec), H3T 1J4 <br/>
+            <br/>
+            Addresse email: <a href="mailto:avioncargo@polymtl.ca">avioncargo@polymtl.ca</a>
+          </div>
+        </div>
+      </Tooltip>
     </div>
   );
 };

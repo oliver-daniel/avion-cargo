@@ -19,6 +19,7 @@
     "react-feather": "^2.0.8",
     "react-i18next": "^11.3.4",
     "react-responsive-carousel": "^3.2.5",
+    "react-tooltip": "^4.2.5",
     "reset-css": "^5.0.1",
     "sass": "^1.26.3"
   },

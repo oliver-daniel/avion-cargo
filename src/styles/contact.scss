@@ -15,18 +15,11 @@
         min-height: 82vh;
     }
 
-    #socials {
-        display: flex;
-    }
-
-    #socials [class^=col]{
-        width: 100%;
-    }
-
     #socials a {
         display: inline-block;
         position: relative;
-
+    }
+    .icon{
         color: $grey-500;
         transition: color 0.2s ease;
         margin: 15px 0;
@@ -87,6 +80,14 @@
                 cursor: pointer;
                 transform: translateY(-2px);
             }
+        }
+    }
+
+    .tooltip{
+        text-align: center;
+        a{
+            color: $red-900;
+            text-decoration: none;
         }
     }
 }
