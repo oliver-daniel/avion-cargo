@@ -1,0 +1,27 @@
+#contact {
+    // filter: blur(5px);
+    background: url('https://source.unsplash.com/1600x900/');
+
+    .card {
+        margin: 75px auto;
+        max-width: $sm;
+
+        h1 {
+            margin-bottom: 1em;
+        }
+    }
+
+    .content{
+        min-height: 82vh;
+    }
+
+    .icon {
+        margin: 15px 0;
+        color: $grey-500;
+        transition: color 0.2s ease;
+
+        &:hover {
+            color: $red-900;
+        }
+    }
+}

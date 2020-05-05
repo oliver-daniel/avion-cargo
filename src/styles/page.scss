@@ -9,3 +9,9 @@
         margin-bottom: 15px;
     }
 }
+
+@media only screen and (max-width: $sm){
+    .Page .content {
+        padding: 0 10px;
+    }
+}

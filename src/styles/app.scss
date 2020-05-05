@@ -5,6 +5,7 @@
 @import 'page';
 
 @import 'home';
+@import 'contact';
 
 html,
 body {
@@ -42,4 +43,11 @@ a, a:visited{
 
 p + p {
     margin-top: 1.4em;
+}
+
+.card {
+    @include shadowed;
+    background: $white-200;
+    border-radius: 12px;
+    padding: 35px;
 }

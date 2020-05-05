@@ -1,5 +1,7 @@
-import HomePage from '../../containers/home'
-import TestPage from '../../containers/test'
+import HomePage from '../../containers/home/HomePage'
+import ContactPage from '../../containers/contact/ContactPage';
+
+import TestPage from '../../containers/test/TestPage'
 
 const ROUTES = {
     home: {
@@ -39,8 +41,8 @@ const ROUTES = {
         fr: {
             href: 'contact',
         },
-        title: "Contact",
-        Component: TestPage,
+        title: "Contact Us",
+        Component: ContactPage,
     },
 };
 
