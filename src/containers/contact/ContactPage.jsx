@@ -41,7 +41,7 @@ const sendForm = (e) => {
 
   const data = Object.fromEntries(new FormData(form.current).entries());
 
-  fetch("https://formspree.io/avioncargo@polymtl.ca", {
+  fetch("https://formspree.io/moqkqklv", {
     method: "POST",
     headers: {
       'Content-Type': "application/json",
