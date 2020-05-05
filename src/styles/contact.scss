@@ -11,17 +11,82 @@
         }
     }
 
-    .content{
+    .content {
         min-height: 82vh;
     }
 
-    .icon {
-        margin: 15px 0;
+    #socials {
+        display: flex;
+    }
+
+    #socials [class^=col]{
+        width: 100%;
+    }
+
+    #socials a {
+        display: inline-block;
+        position: relative;
+
         color: $grey-500;
         transition: color 0.2s ease;
+        margin: 15px 0;
 
         &:hover {
             color: $red-900;
+        }
+    }
+
+    label {
+        display: block;
+        text-align: left;
+
+        &.form-title {
+            text-transform: lowercase;
+            font-variant: small-caps;
+            font-weight: 600;
+            font-size: 1.4em;
+        }
+    }
+
+    form {
+        padding: 0 2em;
+        max-width: 250px;
+
+        input,
+        textarea {
+            width: 100%;
+            line-height: 1.4;
+            font-size: 14px;
+            margin-top: 15px;
+            padding: 5px;
+            color: $grey-900;
+        }
+
+        textarea {
+            resize: none;
+        }
+
+        button {
+            background: $red-900;
+            color: white;
+            display: block;
+            width: 200px;
+            margin: 0 auto;
+            margin-top: 15px;
+
+            padding: .7em 0;
+            border-radius: 6px;
+            font-weight: bold;
+            font-size: 14px;
+
+            transition: all 0.2s ease;
+
+            &:hover {
+                @include shadowed;
+                background: $red-300;
+                cursor: pointer;
+                transform: translateY(-2px);
+            }
         }
     }
 }

@@ -18,9 +18,7 @@ const CAROUSEL_CONFIG = {
 const HomePage = ({t}) => {
   useEffect(() => {
     if (typeof window !== undefined) {
-      const el = document.querySelector(".slider-wrapper");
-      console.log(t("Boop"));
-      
+      const el = document.querySelector(".slider-wrapper");      
       el.style.setProperty("--content", `"${t("SEE OUR IDEAS TAKE FLIGHT.")}"`);
     }
   });
