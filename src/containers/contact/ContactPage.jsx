@@ -30,14 +30,10 @@ const SOCIALS = [
 
 const form = createRef();
 const sendForm = (e) => {
-  console.log(e);
-  console.log(e.target);
-
   e.preventDefault();
   if (typeof window === undefined) {
     return;
   }
-  console.log(form.current.fields);
 
   const data = Object.fromEntries(new FormData(form.current).entries());
 
@@ -47,7 +43,13 @@ const sendForm = (e) => {
       'Content-Type': "application/json",
     },
     body: JSON.stringify({data})
-  });
+  }).then(res => res.json())
+  .then(res => {
+    if (res.ok){
+      alert('Email sent successfully.');
+      form.current.reset();
+    }
+  })
 };
 
 const ContactPage = ({ t, i18n }) => {
