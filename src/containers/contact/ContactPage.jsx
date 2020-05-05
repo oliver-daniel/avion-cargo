@@ -42,7 +42,7 @@ const ContactPage = ({ t, i18n }) => {
                 <div id="socials" className="row center-xs">
                   {SOCIALS.map(({ href, Icon }) => (
                     <div className="col-xs-12 col-sm-6">
-                      <a href={href} target="_blank">
+                      <a href={href} target="_blank" rel="noreferrer">
                         <Icon className="icon" size={40} />
                       </a>
                     </div>

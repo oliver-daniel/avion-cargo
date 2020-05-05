@@ -6,12 +6,12 @@ const Footer = () => (
   <footer className="row between-xs middle-xs">
     <p>
       &copy; Avion Cargo {year}. <Trans>Website built by</Trans>{" "}
-      <a target="_blank" href="https://oliver.danielnet.ca">
+      <a target="_blank" rel="noreferrer" href="https://oliver.danielnet.ca">
         Oliver Daniel
       </a>
       .
     </p>
-    <a target="_blank" href="https://www.polymtl.ca/"><img src="/img/poly_logo.png" alt=""/></a>
+    <a target="_blank" rel="noreferrer" href="https://www.polymtl.ca/"><img src="/img/poly_logo.png" alt=""/></a>
   </footer>
 );
 

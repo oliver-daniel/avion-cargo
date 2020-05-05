@@ -1,4 +1,8 @@
-export default () => <div>This is the blog.</div>;
+import Page from '../../../containers/Page'
+
+export default () => <Page>
+  <div>This is the blog.</div>
+</Page>;
 
 export async function getStaticProps({ params: props }) {
   return {
