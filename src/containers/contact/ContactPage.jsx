@@ -1,6 +1,8 @@
 import * as Feather from "react-feather";
+import { createRef } from "react";
 import { Trans, withTranslation } from "react-i18next";
 import Tooltip from "react-tooltip";
+import fetch from "cross-fetch";
 
 const SOCIALS = [
   {
@@ -25,6 +27,28 @@ const SOCIALS = [
     ),
   },
 ];
+
+const form = createRef();
+const sendForm = (e) => {
+  console.log(e);
+  console.log(e.target);
+
+  e.preventDefault();
+  if (typeof window === undefined) {
+    return;
+  }
+  console.log(form.current.fields);
+
+  const data = Object.fromEntries(new FormData(form.current).entries());
+
+  fetch("https://formspree.io/avioncargo@polymtl.ca", {
+    method: "POST",
+    headers: {
+      'Content-Type': "application/json",
+    },
+    body: JSON.stringify({data})
+  });
+};
 
 const ContactPage = ({ t, i18n }) => {
   return (
@@ -51,10 +75,7 @@ const ContactPage = ({ t, i18n }) => {
                 <div className="row center-xs"></div>
               </div>
               <div className="col-xs col-sm-offset-1 center-xs">
-                <form
-                  action="https://formspree.io/avioncargo@polymtl.ca"
-                  method="POST"
-                >
+                <form ref={form} action="">
                   <label className="form-title" htmlFor="">
                     <Trans>Drop us a line</Trans>
                   </label>
@@ -75,7 +96,7 @@ const ContactPage = ({ t, i18n }) => {
                     rows="7"
                     placeholder={t("Message")}
                   ></textarea>
-                  <button type="submit">
+                  <button onClick={sendForm}>
                     <Trans>SEND</Trans>
                   </button>
                 </form>
@@ -111,9 +132,10 @@ const ContactPage = ({ t, i18n }) => {
             À l'attention de l'Avion Cargo <br />
             Campus de l'Université de Montréal <br />
             2900 Édouard Montpetit <br />
-            Montréal (Québec), H3T 1J4 <br/>
-            <br/>
-            Addresse email: <a href="mailto:avioncargo@polymtl.ca">avioncargo@polymtl.ca</a>
+            Montréal (Québec), H3T 1J4 <br />
+            <br />
+            Addresse email:{" "}
+            <a href="mailto:avioncargo@polymtl.ca">avioncargo@polymtl.ca</a>
           </div>
         </div>
       </Tooltip>
