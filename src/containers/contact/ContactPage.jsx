@@ -12,6 +12,7 @@ const SOCIALS = [
   {
     href: "https://www.instagram.com/avioncargopolymtl/",
     Icon: Feather.Instagram,
+    tip: "@avioncargopolymtl",
   },
   {
     href: "https://www.linkedin.com/company/avion-cargo-polytechnique/",
@@ -40,16 +41,17 @@ const sendForm = (e) => {
   fetch("https://formspree.io/moqkqklv", {
     method: "POST",
     headers: {
-      'Content-Type': "application/json",
+      "Content-Type": "application/json",
     },
-    body: JSON.stringify({data})
-  }).then(res => res.json())
-  .then(res => {
-    if (res.ok){
-      alert('Email sent successfully.');
-      form.current.reset();
-    }
+    body: JSON.stringify({ data }),
   })
+    .then((res) => res.json())
+    .then((res) => {
+      if (res.ok) {
+        alert("Email sent successfully.");
+        form.current.reset();
+      }
+    });
 };
 
 const ContactPage = ({ t, i18n }) => {
@@ -66,17 +68,23 @@ const ContactPage = ({ t, i18n }) => {
             <div className="row middle-xs">
               <div className="col-xs-1 col-md col-md-offset-1">
                 <div id="socials" className="row center-xs">
-                  {SOCIALS.map(({ href, Icon }) => (
+                  {SOCIALS.map(({ href, Icon, tip }) => (
                     <div className="col-xs-12 col-sm-6">
                       <a href={href} target="_blank" rel="noreferrer">
-                        <Icon className="icon" size={40} />
+                        <Icon
+                          className="icon"
+                          size={40}
+                          {...(tip && {
+                            "data-tip": tip,
+                          })}
+                        />
                       </a>
                     </div>
                   ))}
                 </div>
                 <div className="row center-xs"></div>
               </div>
-              <div className="col-xs col-sm-offset-1 center-xs">
+              <div className="col-xs-11 col-sm col-sm-offset-1 center-xs">
                 <form ref={form} action="">
                   <label className="form-title" htmlFor="">
                     <Trans>Drop us a line</Trans>
@@ -141,6 +149,7 @@ const ContactPage = ({ t, i18n }) => {
           </div>
         </div>
       </Tooltip>
+      <Tooltip effect="solid" />
     </div>
   );
 };

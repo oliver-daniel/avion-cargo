@@ -48,12 +48,10 @@ const Header = ({ i18n, t, tReady }) => (
   <header id="Header" className="row between-xs middle-xs">
     {tReady && (
       <>
-        <div className="col-xs-11 col-sm-10 col-sm-offset-1">
+        <div className="col-xs-12 col-sm-10 col-sm-offset-1">
           <div className="row around-xs middle-xs">
-            <div className="col-xs">
+            <div className="col-xs row between-xs">
               <NavLink route="about">{t("About Us")}</NavLink>
-            </div>
-            <div className="col-xs">
               <NavLink route="projects">{t("Projects")}</NavLink>
             </div>
             <div className="col-xs">
@@ -61,17 +59,15 @@ const Header = ({ i18n, t, tReady }) => (
                 <div id="logo" />
               </NavLink>
             </div>
-            <div className="col-xs">
+            <div className="col-xs row between-xs">
               <NavLink route="blog" href="/[lang]/blog">
                 {t("Blog")}
               </NavLink>
-            </div>
-            <div className="col-xs">
               <NavLink route="contact">{t("Contact")}</NavLink>
             </div>
           </div>
         </div>
-        <div className="col-xs-1">
+        <div className="col-xs">
           <LanguageSwitch i18n={i18n} />
         </div>
       </>
