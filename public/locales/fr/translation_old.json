@@ -1,5 +1,8 @@
 {
   "Create Next App": "Créez Application Next",
   "Home": "Accueil",
-  "Welcome!": "Bienvenue!"
+  "Welcome!": "Bienvenue!",
+  "Boop": "Beep",
+  "Local: C-572 Envois postaux: <1></1><2></2>École Polytechnique de Montréal <4></4>À l'attention de l'Avion Cargo <6></6>Campus de l'Université de Montréal <8></8>Case postale 6079, Succursale \"Centre-Ville\" <10></10>Montréal (Québec), H3C 3A7": "Local: C-572 Envois postaux: <1></1><2></2>École Polytechnique de Montréal <4></4>À l'attention de l'Avion Cargo <6></6>Campus de l'Université de Montréal <8></8>Case postale 6079, Succursale \"Centre-Ville\" <10></10>Montréal (Québec), H3C 3A7",
+  "Expédition et livraison:<1></1><2></2>École Polytechnique de Montréal <4></4>À l'attention de l'Avion Cargo <6></6>Campus de l'Université de Montréal <8></8>2900 Édouard Montpetit <10></10>Montréal (Québec), H3T 1J4": "Expédition et livraison:<1></1><2></2>École Polytechnique de Montréal <4></4>À l'attention de l'Avion Cargo <6></6>Campus de l'Université de Montréal <8></8>2900 Édouard Montpetit <10></10>Montréal (Québec), H3T 1J4"
 }

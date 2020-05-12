@@ -14,9 +14,9 @@ i18n
     .init({
         ns: ['translation'],
         partialBundledLanguages: true,
-        // debug: process.env.NODE_ENV !== 'production',
+        debug: process.env.NODE_ENV !== 'production',
         fallbackLng: 'en',
-        load: 'languageOnly',
+        // load: 'languageOnly',
 
         interpolation: {
             escapeValue: false,
@@ -29,8 +29,10 @@ i18n
         
 
         backend: {
-            loadPath: '/locales/{{lng}}/{{ns}}.json'
+            loadPath: '/locales/{{lng}}/{{ns}}.json',
         },
+
+        saveMissing: true,
 
         detection: {
             order: ['path', 'navigator', 'querystring'],

@@ -50,16 +50,16 @@ const Header = ({ i18n, t, tReady }) => (
       <>
         <div className="col-xs-12 col-sm-10 col-sm-offset-1">
           <div className="row around-xs middle-xs">
-            <div className="col-xs row between-xs">
+            <div className="col-xs row around-xs">
               <NavLink route="about">{t("About Us")}</NavLink>
               <NavLink route="projects">{t("Projects")}</NavLink>
             </div>
-            <div className="col-xs">
+            <div className="col-xs-2">
               <NavLink route="home" href="/[lang]">
                 <div id="logo" />
               </NavLink>
             </div>
-            <div className="col-xs row between-xs">
+            <div className="col-xs row around-xs">
               <NavLink route="blog" href="/[lang]/blog">
                 {t("Blog")}
               </NavLink>

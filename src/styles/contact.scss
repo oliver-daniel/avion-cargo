@@ -12,13 +12,19 @@
     }
 
     .content {
-        min-height: 82vh;
+        min-height: 78vh;
     }
 
-    #socials a {
+    #socials {
+        [class^=col]{
+            padding: 0 5px;
+            min-width: 40px;
+
+        }
+        a {
         display: inline-block;
         position: relative;
-    }
+    }}
     .icon{
         color: $grey-500;
         transition: color 0.2s ease;
@@ -42,7 +48,7 @@
     }
 
     form {
-        margin: 0 1em;
+        margin: 0 1.5em;
         max-width: 250px;
 
         input,
