@@ -1,0 +1,31 @@
+backend:
+  name: github
+  repo: oliver-daniel/avion-cargo
+publish_mode: editorial_workflow
+media_folder: public/content/media/img
+public_folder: content/media/img
+
+collections:
+  - name: "blog"
+    label: "Blog Posts"
+    folder: "content/blog/{{language}}"
+    create: true
+    fields:
+      - {label: "Layout", name: "layout", widget: "hidden", default: "blog"}
+      - {label: "Title", name: "title", widget: "string"}
+      - {label: "Language", name: "language", widget: "select", options: ["en", "fr"], default: "en"}
+      # - {label: "Publish Date", name: "date", widget: "datetime"}
+      - {label: "Featured Image", name: "thumbnail", widget: "image", required: false}
+      - {label: "Body", name: "body", widget: "markdown"}
+  
+  - name: "pages"
+    label: "Site Pages"
+    folder: "content/pages/{{language}}"
+    create: true
+    fields:
+      - {label: "Layout", name: "layout", widget: "hidden", default: "blog"}
+      - {label: "Title", name: "title", widget: "string"}
+      - {label: "Language", name: "language", widget: "select", options: ["en", "fr"], default: "en"}
+      - {label: "Body", name: "body", widget: "markdown"}
+
+
