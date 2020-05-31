@@ -44,6 +44,15 @@ const ROUTES = {
         title: "Contact Us",
         Component: ContactPage,
     },
+    blog: {
+        en: {
+            href: 'blog'
+        }, 
+        fr: {
+            href: 'blog'
+        }, 
+        title: "Blog"
+    }
 };
 
 export default ROUTES;

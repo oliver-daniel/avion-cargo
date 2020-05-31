@@ -15,10 +15,10 @@ const CAROUSEL_CONFIG = {
 
 // TODO: duration bar
 
-const HomePage = ({t}) => {
+const HomePage = ({ t }) => {
   useEffect(() => {
     if (typeof window !== undefined) {
-      const el = document.querySelector(".slider-wrapper");      
+      const el = document.querySelector(".slider-wrapper");
       el.style.setProperty("--content", `"${t("SEE OUR IDEAS TAKE FLIGHT.")}"`);
     }
   });
@@ -39,10 +39,10 @@ const HomePage = ({t}) => {
         ))}
       </Carousel>
       <div className="content">
-        <h1>
-          LOREM IPSUM DOLOR SIT <span className="keyword">AMET.</span>
-        </h1>
         <div className="container">
+          <h1>
+            LOREM IPSUM DOLOR SIT <span className="keyword">AMET.</span>
+          </h1>
           <div className="row">
             <div className="col-xs">
               <p>

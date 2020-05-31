@@ -1,0 +1,28 @@
+.Page.blog-post {
+    background: #eee;
+
+    >.container {
+        color: #444;
+        font-family: 'Orkney-Regular';
+        max-width: 75ch;
+
+        >* {
+            margin: 1em 0;
+        }
+    }
+
+    h1 {
+        font-size: 3.33333em;
+        color: inherit;
+    }
+
+    h2 {
+        font-size: 2.33333em;
+    }
+
+    img {
+        display: block;
+        margin: 1em auto;
+        max-width: 80vw;
+    }
+}

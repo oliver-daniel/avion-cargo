@@ -1,33 +1,76 @@
 backend:
   name: github
   repo: oliver-daniel/avion-cargo
+
 publish_mode: editorial_workflow
 media_folder: public/content/media/img
 public_folder: img
+
+slug:
+  encoding: "ascii"
+  clean_accents: true
+  sanitize_replacement: "-"
 
 collections:
   - name: "blog"
     label: "Blog Posts"
     folder: "public/content/blog"
     create: true
-    slug: "{{title}}"
     path: "{{language}}/{{slug}}"
+    slug: "{{slug}}"
     fields:
-      - {label: "Layout", name: "layout", widget: "hidden", default: "blog"}
-      - {label: "Title", name: "title", widget: "string"}
-      - {label: "Language", name: "language", widget: "select", options: ["en", "fr"], default: "en"}
-      # - {label: "Publish Date", name: "date", widget: "datetime"}
-      - {label: "Featured Image", name: "thumbnail", widget: "image", required: false}
-      - {label: "Body", name: "body", widget: "markdown"}
-  
+      - { label: "Title", name: "title", widget: "string" }
+      - { label: "Author", name: "author", widget: "string" }
+      - {
+          label: "Language",
+          name: "language",
+          widget: "select",
+          options: ["en", "fr"],
+          default: "en",
+        }
+      - {
+          label: "Publish Date",
+          name: "publish_date",
+          widget: "datetime",
+          dateFormat: "YYYY-MM-DD",
+          format: "YYYY-MM-DD",
+          timeFormat: false,
+        }
+      - {
+          label: "Featured Image",
+          name: "thumbnail",
+          widget: "image",
+          required: false,
+        }
+      - { label: "Body", name: "body", widget: "markdown" }
+
   - name: "pages"
     label: "Site Pages"
     folder: "public/content/pages"
+    path: "{{language}}/{{title}}"
     create: true
     fields:
-      - {label: "Layout", name: "layout", widget: "hidden", default: "blog"}
-      - {label: "Title", name: "title", widget: "string"}
-      - {label: "Language", name: "language", widget: "select", options: ["en", "fr"], default: "en"}
-      - {label: "Body", name: "body", widget: "markdown"}
-
-
+      - { label: "Title", name: "title", widget: "string" }
+      - {
+          label: "Language",
+          name: "language",
+          widget: "select",
+          options: ["en", "fr"],
+          default: "en",
+        }
+      - { label: "Body", name: "body", widget: "markdown" }
+  - name: "projects"
+    label: "Projects"
+    folder: "public/content/projects"
+    create: true
+    fields:
+      - { label: "Project Title", name: "title", widget: "string" }
+      - { label: "Year", name: "date", widget: "string", default: "2020" }
+      - {
+          label: "Language",
+          name: "language",
+          widget: "select",
+          options: ["en", "fr"],
+          default: "en",
+        }
+      - { label: "Body", name: "body", widget: "markdown" }

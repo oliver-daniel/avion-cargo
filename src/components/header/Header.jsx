@@ -21,7 +21,11 @@ const handleLanguageChange = (i18n) => ({ target: { lang: targetLang } }) => {
   const url = `/${targetLang}/${dest}`;
 
   i18n.changeLanguage(targetLang);
-  Router.replace("/[lang]/[route]", url, { shallow: true });
+  if (route[1] !== "blog") {
+    Router.replace("/[lang]/[route]", url, { shallow: true });
+  } else {
+    Router.replace("/[lang]/[blog]", url, { shallow: true });
+  }
 };
 
 const LanguageSwitch = ({ i18n }) => (
@@ -55,7 +59,7 @@ const Header = ({ i18n, t, tReady }) => (
               <NavLink route="projects">{t("Projects")}</NavLink>
             </div>
             <div className="col-xs-2">
-              <NavLink route="home" href="/[lang]">
+              <NavLink route="home" href="/[lang]/">
                 <div id="logo" />
               </NavLink>
             </div>

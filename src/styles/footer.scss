@@ -4,6 +4,10 @@ footer {
     width: 100%;
     font-size: 12px;
 
+    p {
+        margin: 0;
+    }
+
     img {
         height: calc(#{$header-footer-height} - 1px);
     }
