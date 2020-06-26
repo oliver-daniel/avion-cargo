@@ -9,6 +9,8 @@ const handleLanguageChange = (i18n) => ({ target: { lang: targetLang } }) => {
   if (route.length === 1) {
     i18n.changeLanguage(targetLang);
     return Router.replace("/[lang]", `/${targetLang}`);
+  } else if (route[1] === "blog") {
+    return Router.replace("/[lang]/[blog]", `/${targetLang}/blog`, {shallow: true});
   }
 
   const lang = i18n.language.split("-")[0];
@@ -19,13 +21,8 @@ const handleLanguageChange = (i18n) => ({ target: { lang: targetLang } }) => {
   const dest = routes[key][targetLang].href;
 
   const url = `/${targetLang}/${dest}`;
-
   i18n.changeLanguage(targetLang);
-  if (route[1] !== "blog") {
-    Router.replace("/[lang]/[route]", url, { shallow: true });
-  } else {
-    Router.replace("/[lang]/[blog]", url, { shallow: true });
-  }
+  Router.replace("/[lang]/[route]", url, { shallow: true });
 };
 
 const LanguageSwitch = ({ i18n }) => (

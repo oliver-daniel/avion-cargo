@@ -1,5 +1,6 @@
 {
   "Website built by": "Website built by",
+  "Home": "Accueil",
   "About Us": "About Us",
   "Projects": "Projects",
   "Blog": "Blog",
@@ -22,5 +23,6 @@
   "Montréal (Québec), H3T 1J4": "Montréal (Québec), H3T 1J4",
   "Email address:": "Email address:",
   "SEE OUR IDEAS TAKE FLIGHT.": "SEE OUR IDEAS TAKE FLIGHT.",
+  "By": "By",
   "Welcome to <1>Next.js!</1>": "Welcome to <1>Next.js!</1>"
 }

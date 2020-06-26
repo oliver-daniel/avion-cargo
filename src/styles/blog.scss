@@ -1,5 +1,5 @@
 .Page.blog-post {
-    background: #eee;
+    background: #fafafa;
 
     >.container {
         color: #444;
@@ -9,20 +9,51 @@
         >* {
             margin: 1em 0;
         }
-    }
 
-    h1 {
-        font-size: 3.33333em;
-        color: inherit;
-    }
 
-    h2 {
-        font-size: 2.33333em;
-    }
+        h1 {
+            font-size: 3.33333em;
+            color: inherit;
+            font-family: 'Orkney Medium';
+            font-weight: lighter;
+           +.details{
+               margin-top: -0.8em;
+               margin-left: 0.5em;
+               font-variant: all-small-caps;
+           } 
+        }
 
-    img {
-        display: block;
-        margin: 1em auto;
-        max-width: 80vw;
+        h2 {
+            font-size: 2.33333em;
+        }
+
+        em {
+            font-style: italic;
+        }
+
+        strong {
+            font-weight: bold;
+        }
+
+        aside {
+            padding: 1.5em;
+            max-width: 60ch;
+            margin: 0 auto;
+            p {
+                padding: 0 1.5em;
+            }
+        }
+
+        img {
+            display: block;
+            margin: 1em auto;
+            max-width: 80vw;
+
+            +em {
+                margin-left: 1.5rem;
+                margin-top: -.5rem;
+            }
+
+        }
     }
 }

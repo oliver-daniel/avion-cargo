@@ -2,9 +2,17 @@ backend:
   name: github
   repo: oliver-daniel/avion-cargo
 
+local_backend: true
+
 publish_mode: editorial_workflow
 media_folder: public/content/media/img
 public_folder: img
+
+media_library:
+  name: cloudinary
+  config:
+    cloud_name: "dqxchogr2"
+    api_key: "282943535424637"
 
 slug:
   encoding: "ascii"
@@ -14,10 +22,11 @@ slug:
 collections:
   - name: "blog"
     label: "Blog Posts"
+    label_singular: "Post"
     folder: "public/content/blog"
     create: true
     path: "{{language}}/{{slug}}"
-    slug: "{{slug}}"
+    summary: "{{title}} ({{year}}-{{month}}-{{day}})"
     fields:
       - { label: "Title", name: "title", widget: "string" }
       - { label: "Author", name: "author", widget: "string" }
@@ -32,8 +41,8 @@ collections:
           label: "Publish Date",
           name: "publish_date",
           widget: "datetime",
-          dateFormat: "YYYY-MM-DD",
-          format: "YYYY-MM-DD",
+          dateFormat: "MMMM DD, YYYY",
+          format: "'YYYY-MM-DD'", #"YYYY-MM-DD",
           timeFormat: false,
         }
       - {
@@ -43,9 +52,17 @@ collections:
           required: false,
         }
       - { label: "Body", name: "body", widget: "markdown" }
+    view_filters:
+      - label: "English"
+        field: language
+        pattern: "en"
+      - label: "French"
+        field: language
+        pattern: "fr"
 
   - name: "pages"
     label: "Site Pages"
+    label_singular: "Page"
     folder: "public/content/pages"
     path: "{{language}}/{{title}}"
     create: true
@@ -61,7 +78,9 @@ collections:
       - { label: "Body", name: "body", widget: "markdown" }
   - name: "projects"
     label: "Projects"
+    label_singular: "Project"
     folder: "public/content/projects"
+    path: "{{language}}/{{slug}}"
     create: true
     fields:
       - { label: "Project Title", name: "title", widget: "string" }
@@ -73,4 +92,27 @@ collections:
           options: ["en", "fr"],
           default: "en",
         }
+      - { label: "Body", name: "body", widget: "markdown" }
+  - name: "execs"
+    label: "Meet the Execs"
+    label_singular: "Exec Bio"
+    folder: "public/content/exec"
+    path: "{{language}}/{{fields.name}}"
+    create: true
+    identifier_field: name
+    fields:
+      - { label: "Name", name: "name", widget: "string" }
+      - {
+          label: "Language",
+          name: "language",
+          widget: "select",
+          options: ["en", "fr"],
+          default: "en",
+        }
+      - {
+        label: "Picture",
+        name: "picture",
+        widget: "image",
+        required: false,
+      }
       - { label: "Body", name: "body", widget: "markdown" }

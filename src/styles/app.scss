@@ -17,7 +17,7 @@ body {
     background: $white-200;
     font-family: 'Montserrat', Arial, Helvetica, sans-serif;
     color: $grey-700;
-    
+
 }
 
 // TYPOGRAPHY
@@ -25,9 +25,11 @@ h1 {
     font-weight: bold;
     font-size: 36px;
     color: $grey-700;
+
     .keyword {
         color: $red-300;
     }
+
     margin: .3em 0;
 }
 
@@ -42,12 +44,24 @@ footer {
     margin: 0 !important;
 }
 
-a, a:visited{
+a,
+a:visited {
     color: unset;
 }
 
-p + p {
+p+p {
     margin-top: 1.4em;
+}
+
+ul {
+    li {
+        list-style-type: disc;
+
+        +li {
+            margin-top: 1.4em;
+        }
+    }
+
 }
 
 .card {

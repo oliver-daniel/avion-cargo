@@ -1,5 +1,20 @@
 #home {
+    
+    h1 {
+        strong {
+            @extend .keyword;
+        }
+    }
 
+    .content [class^=col-]{
+        padding: 0 1em;
+        
+        @media only screen and (min-width: $sm){
+            &:not(:first-of-type){
+                margin-top: 3.1em;
+            }
+        }
+    }
     .carousel-root {
         .slider-wrapper {
             --content: '';
@@ -69,6 +84,7 @@
                     opacity: 1;
                     backdrop-filter: blur(4px);
                     width: auto;
+                    margin: 0;
                     left: unset;
                     right: 0;
                     bottom: 0;

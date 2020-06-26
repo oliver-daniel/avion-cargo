@@ -1,10 +1,18 @@
 import Page from "../../containers/Page";
 import Head from "next/head";
 import routes from "../../components/routes";
+import matter from "gray-matter";
+import path from "path";
 
 import { withTranslation } from "react-i18next";
 
-const LanguageSensitivePage = ({ lang, route = "home", tReady, t }) => {
+const LanguageSensitivePage = ({
+  lang,
+  route = "home",
+  tReady,
+  t,
+  ...pageProps
+}) => {
   const entry =
     route === "home"
       ? routes.home
@@ -17,12 +25,21 @@ const LanguageSensitivePage = ({ lang, route = "home", tReady, t }) => {
         <title>{t(title)} | Avion Cargo</title>
       </Head>
       {
-        tReady ? <Component /> : <div>Loading...</div>
+        tReady ? <Component {...pageProps} /> : <div>Loading...</div>
         // TODO: prettier
       }
     </Page>
   );
 };
+
+function getPageMarkdown(lang, slug) {
+  const POSTS_DIR = `public/content/pages/${lang}`;
+  try {
+    return matter.read(path.join(POSTS_DIR, `${slug}.md`));
+  } catch {
+    return { content: "COMING SOON!", data: {} };
+  }
+}
 
 export async function getStaticPaths() {
   const paths = [];
@@ -51,8 +68,16 @@ export async function getStaticPaths() {
 }
 
 export async function getStaticProps({ params: props }) {
+  const { lang, route } = props;
+  const slug = route ? route : lang === "en" ? "homepage" : "accueil";
+  let { content } = getPageMarkdown(lang, slug);
+  content = content.split("---");
+
   return {
-    props,
+    props: {
+      ...props,
+      content,
+    },
   };
 }
 
