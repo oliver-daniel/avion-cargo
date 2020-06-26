@@ -68,10 +68,10 @@ export async function getStaticPaths() {
 }
 
 export async function getStaticProps({ params: props }) {
-  const { lang, route } = props;
+  const { lang, route } = props;  
   const slug = route ? route : lang === "en" ? "homepage" : "accueil";
   let { content } = getPageMarkdown(lang, slug);
-  content = content.split("---");
+  content = content.split("\n---\n");
 
   return {
     props: {

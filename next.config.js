@@ -2,14 +2,20 @@ const optimizedImages = require('next-optimized-images')
 
 
 let config = {
-    exportPathMap: () => ({
-        '/en/': {
-            page: '/[lang]'
-        },
-        '/fr/': {
-            page: '/[lang]'
-        },
-    }),
+    // exportPathMap: () => ({
+    //     '/en/blog': {
+    //         page: '/[lang]/blog'
+    //     },
+    //     '/fr/blog': {
+    //         page: '/[lang]/blog'
+    //     },
+    //     '/en/': {
+    //         page: '/[lang]'
+    //     },
+    //     '/fr/': {
+    //         page: '/[lang]'
+    //     },
+    // }),
     webpack: (cfg) => {
         cfg.module.rules.push({
             test: /\.md$/,

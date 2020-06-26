@@ -11,16 +11,16 @@ const BlogPage = ({ posts }) => (
     <Page>
       <div>This is the blog.</div>
       <p>bitch.</p>
-      <p>I can show up to {posts.length} posts.</p>
+      <p>I can show up to {posts?.length} posts.</p>
 
       <ul>
-        {posts.map((post) => (
+        {posts?.map((post) => (
           <li>
-            <Link href="blog/[slug]" as={`blog/${post.data.slug}`}>
-              <a>{post.data.title}</a>
+            <Link href="blog/[slug]" as={`blog/${post?.data?.slug}`}>
+              <a>{post?.data?.title}</a>
             </Link>
           </li>
-        ))}
+        )) || null}
       </ul>
     </Page>
   </>
@@ -30,7 +30,6 @@ export default BlogPage;
 
 export async function getStaticProps({ params }) {
   const posts = getPostsByLanguage(params.lang);
-
   return {
     props: {
       ...params,
@@ -53,6 +52,6 @@ export async function getStaticPaths() {
         },
       },
     ],
-    fallback: false,
+    fallback: true,
   };
 }
