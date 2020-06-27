@@ -1,6 +1,5 @@
 backend:
-  name: github
-  repo: oliver-daniel/avion-cargo
+  name: git-gateway
 
 local_backend: true
 
