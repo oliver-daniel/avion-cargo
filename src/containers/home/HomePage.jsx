@@ -29,7 +29,7 @@ const HomePage = ({ t, content }) => {
       <Carousel {...CAROUSEL_CONFIG}>
         {[1, 1, 1].map(() => (
           <div>
-            <imgxp
+            <img
               src={
                 "https://source.unsplash.com/1600x900/?image=" +
                 Math.floor(Math.random() * 1000)
@@ -44,7 +44,7 @@ const HomePage = ({ t, content }) => {
         <div className="container">
           <div className="row">
             {content.map((src) => (
-              <div className="col-sm-12 col-lg-6">
+              <div className="col-sm-12 col-lg">
                 <Markdown source={src} />
               </div>
             ))}

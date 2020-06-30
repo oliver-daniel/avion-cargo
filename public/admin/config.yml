@@ -11,8 +11,8 @@ public_folder: img
 media_library:
   name: cloudinary
   config:
-    cloud_name: "dqxchogr2"
-    api_key: "282943535424637"
+    cloud_name: "decninixz"
+    api_key: "795981626482445"
 
 slug:
   encoding: "ascii"
@@ -116,3 +116,12 @@ collections:
         required: false,
       }
       - { label: "Body", name: "body", widget: "markdown" }
+  - name: "carousel"
+    label: "Carousel Photos"
+    label_singular: "Carousel Photo"
+    folder: "public/content/carousel"
+    create: true
+    fields:
+      - { label: "Name",   name: "name",   widget: "string" }
+      - { label: "Image",  name: "img",    widget: "image" }
+      - { label: "Credit", name: "credit", widget: "string" }
