@@ -2,7 +2,7 @@
 title: Homepage
 language: en
 ---
-# Welcome to *production*!
+# Watch our ideas *take off*!
 
 Welcome to Avion Cargo Polytechnique Montréal! We are a family of students, engineers, airplane lovers and avid problem solvers!
 
