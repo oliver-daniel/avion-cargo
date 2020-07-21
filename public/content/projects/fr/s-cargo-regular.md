@@ -11,4 +11,6 @@ En compétition SAE East, l’Avion fut sujet à plusieurs problèmes de sous-pe
 
 En compétition SAE West, l’Avion rencontra avec succès les nouvelles évaluations de performance. Il surprend plusieurs compétiteurs par sa constance et permet d’atteindre la 3e place en performance de vol. L’équipe livra également une présentation orale de qualité, ce qui leur valu la 3ème mplace dans cette catégorie. Au classement global, l’équipe menée par Pierre-Nicolas Stock termina 3e pour la compétition SAE West!
 
-![]()
+![](https://res.cloudinary.com/decninixz/image/upload/v1595355684/avion_cargo_site_web_full_res-2760_pjnddr.jpg)
+
+![](https://res.cloudinary.com/decninixz/image/upload/v1595360184/avion_cargo_site_web_full_res-0120-2_mk8aoe.jpg)
