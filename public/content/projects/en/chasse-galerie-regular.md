@@ -3,12 +3,12 @@ title: Chasse-Galerie - Regular
 date: "2020"
 language: en
 ---
-L’année 2019-2020 était la première de trois années avec les règles actuelles de la compétition SAE, soit un défi où l’avion:
--Soulève le plus de ballons de soccer et de plaques d’acier
--Décolle en moins de 30 mètres
--Possède une dimension de compartiment à cargo et une envergure aussi petites que possibles
-L’équipe 2019-2020 a poussé leur concept à la limite en terme de cargaison en soulevant 9 ballons et 4.5 livres d’acier à la compétition. C’était le nombre de ballons le plus élevé parmi toutes les équipes pour lequel l’avion a volé sans problème. Afin de réduire l’envergure de l’avion et maximiser le pointage, l’équipe est allé pour une configuration biplan. Dans la même optique, la longueur de l’avion a été réduite en positionnant les ballons en un arrangement de style treillis. 
-Au final, l’équipe, menée par Frédéric Larocque, a terminé  5e pour le rapport de conception, 8e pour la présentation orale, 5e pour les performances en vol et 5e pour le classement global. 
+2019-2020 was the first of the three year cycle of the regular class rules, a challenge where the aircraft: 
+Lifts soccer balls and steel plates as cargo, 
+Takes off in less than 30 meters,
+Minimises the sum of the wingspan and cargo bay length. 
+The 2019-2020 team pushed the limits with regards to maximising cargo and successfully flew 9 soccer balls and 4.5 pounds of steel at competition. The Chasse-Galerie lifted, with no problems, the most soccer balls of all the aircrafts at the SAE Aero Design East competition. In order to minimise the wingspan- improving the flight score- while simultaneously providing enough lift, the team opted for a biplane configuration. In the same thought process, the soccer balls were arranged in a trellis fashion so as to have a shorter cargo bay. 
+The team, led by Frédéric Larocque finished 5th for design report, 8th for the technical presentation, 5th for flight performance and 5th overall. 
 
 ![](https://res.cloudinary.com/decninixz/image/upload/v1595283815/avion_cargo_site_web_full_res-08202_ne6ywj.jpg)
 
