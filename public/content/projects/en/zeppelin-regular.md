@@ -3,6 +3,6 @@ title: "Zeppelin - Regular "
 date: "2013"
 language: en
 ---
-Dans la catégorie regulier, 2013 a été la troisième année du défi de la somme des dimensions à ne pas dépasser 225 pouces. L’équipe, menée par Martin Lafrance, a rencontré le défi avec le Zeppelin. Un monoplan avec un aile haute, le Zeppelin a été un participant à battre. Au final, l’avion a soulevé jusqu’à 35 livres de cargaison.
+In the regular category, 2013 was the third year of the challenge where the sum of the dimensions was limited to 225 inches or less. The team, led by Martin Lafrance, responded to this challenge with Zeppelin. A monoplane high-wing, Zeppelin was the competitor to look out for. In competition, the airplane lifted up to 35 pounds of cargo. 
 
 ![](https://res.cloudinary.com/decninixz/image/upload/v1595350547/2013zeppelin_nirrnb.jpg)
