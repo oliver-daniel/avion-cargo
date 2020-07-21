@@ -36,7 +36,6 @@ const Carousel = ({ images, lang }) => {
 
 export async function getStaticProps({params}) {
   const images = imgs.getCarouselImages();
-  console.log(params);
   return {
     props: { images, ...params },
   };
