@@ -10,3 +10,5 @@ Pour la première fois en près de 10 ans, S-Cargo fut testé au Québec en fév
 En compétition SAE East, l’Avion fut sujet à plusieurs problèmes de sous-performance au décollage et en vol à basse vitesse. Une analyse de performance approfondie a permis de cerner les problèmes et de les identifier comme faisant partie du système de propulsion et de l’angle d’attaque au repos de l’aile. Ces problèmes furent corrigés avant la seconde compétition.
 
 En compétition SAE West, l’Avion rencontra avec succès les nouvelles évaluations de performance. Il surprend plusieurs compétiteurs par sa constance et permet d’atteindre la 3e place en performance de vol. L’équipe livra également une présentation orale de qualité, ce qui leur valu la 3ème mplace dans cette catégorie. Au classement global, l’équipe menée par Pierre-Nicolas Stock termina 3e pour la compétition SAE West!
+
+![]()
