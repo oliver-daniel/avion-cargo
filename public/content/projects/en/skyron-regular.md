@@ -3,7 +3,7 @@ title: Skyron - Regular
 date: "2015"
 language: en
 ---
-L’année 2015 était la deuxième année du cycle de règle, donc avec le même défi que 2014: la somme des dimensions ne doivent pas dépasser 175 pouces, le décollage doit être dans moins de 200 pieds et la cargaison doit être débarqué en moins d’une minute. L’équipe, menée par Sabrina Watelle, a conçu un monoplan, avec une aile haute et un empennage en H. Skyron était un fort compétiteur avec un cargaison maximale de 26.5 livres.
+2015 was the second of the three year cycle of the challenge. The rules were the same as 2014: the sum of the dimensions could not surpass 175 inches, the take off must be done in less than 200 feet and the cargo bay must be unloaded in less than one minute. The team, led by Sabrina Watelle, designed and built a monoplane, with a high-wing and an H-shaped empennage. Skyron was a competitive build with a maximum payload of 26.5 pounds.
 
 ![](https://res.cloudinary.com/decninixz/image/upload/v1595352624/P1070845_roxfwo.jpg)
 
