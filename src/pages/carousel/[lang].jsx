@@ -1,4 +1,4 @@
-import imgs from "../utils/carousel";
+import imgs from "../../utils/carousel";
 import { Carousel as ICarousel } from "react-responsive-carousel";
 
 const CAROUSEL_CONFIG = {
@@ -14,7 +14,11 @@ const CAROUSEL_CONFIG = {
 
 // TODO: duration bar
 
-const Carousel = ({ images, msg }) => {
+const Carousel = ({ images, lang }) => {
+  const msg = {
+    en: "SEE OUR IDEAS TAKE FLIGHT.",
+    fr: "VOIR NOS IDÉES DÉCOLLER.",
+  }[lang];
   return (
     <div className="carousel">
       <ICarousel {...CAROUSEL_CONFIG}>
@@ -30,11 +34,18 @@ const Carousel = ({ images, msg }) => {
   );
 };
 
-export async function getServerSideProps({ query }) {
+export async function getStaticProps({params}) {
   const images = imgs.getCarouselImages();
-  const { msg } = query;
+  console.log(params);
   return {
-    props: { images, msg },
+    props: { images, ...params },
+  };
+}
+
+export function getStaticPaths() {
+  return {
+    paths: [{ params: { lang: "en" } }, { params: { lang: "fr" } }],
+    fallback: false,
   };
 }
 

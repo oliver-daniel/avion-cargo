@@ -1,11 +1,9 @@
 import Markdown from "react-markdown/with-html";
-import { useEffect } from "react";
-import { withTranslation } from "react-i18next";
 
-const HomePage = ({ content, t }) => {
+const HomePage = ({ content, i18n: { language } }) => {
   return (
     <>
-      <iframe src={`/carousel?msg=${t("SEE OUR IDEAS TAKE FLIGHT.")}`} frameBorder="0"/>
+      <iframe src={`/carousel/${language}`} frameBorder="0" />
       <div className="content">
         <div className="container">
           <div className="row">
@@ -21,4 +19,4 @@ const HomePage = ({ content, t }) => {
   );
 };
 
-export default withTranslation()(HomePage);
+export default HomePage;
