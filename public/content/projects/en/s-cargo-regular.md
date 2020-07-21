@@ -3,13 +3,13 @@ title: S-Cargo - Regular
 date: "2019"
 language: en
 ---
-En 2018-2019, le regular devait toujours transporter des balles de tennis et plaques d’acier pour représenter des passagers et leurs bagages. En construisant sur les apprentissages des années précédentes, le design d’aile fut légèrement optimisé, mais restera sensiblement le même que 2017-2018. L’accent fut mis sur le design et l’optimisation d’une nouvelle jonction entre les ailes (séparées en 2) et le fuselage. Un nouveau design d’empennage léger mais résistant en torsion fut également développé.
+In 2018-2019, the regular team was still transporting tennis balls and steel plates to represent passengers and their baggage. Building off of previous years’ work, the wing design was optimised while not straying too far from the 2017-2018 design. The focus was on the design and optimisation of a new junction, splitting the wing into two, and the fuselage. A new design of a lighter empennage, although quite resistant in torsion, was equally developed. 
 
-Pour la première fois en près de 10 ans, S-Cargo fut testé au Québec en février avant la compétition SAE Aero design. Ces tests ont permis d’évaluer grossièrement les performances de l’Avion et de corriger des erreurs de designl.
+For the first time in almost 10 years, the team was able to hold a flight test in Québec, in February, before the SAE Aero Design competition. The tests allowed an evaluation of S-Cargo’s flight performances and permitted the team to correct structural design errors. 
 
-En compétition SAE East, l’Avion fut sujet à plusieurs problèmes de sous-performance au décollage et en vol à basse vitesse. Une analyse de performance approfondie a permis de cerner les problèmes et de les identifier comme faisant partie du système de propulsion et de l’angle d’attaque au repos de l’aile. Ces problèmes furent corrigés avant la seconde compétition.
+At the SAE East competition, S-Cargo was subjected to a few under-performance issues, notably at take-off and during low velocity flights. A thorough analysis of performance allowed the team to target the underlying problems in the propulsion system and the wing’s resting angle of attack. These problems were resolved before the next upcoming competition. 
 
-En compétition SAE West, l’Avion rencontra avec succès les nouvelles évaluations de performance. Il surprend plusieurs compétiteurs par sa constance et permet d’atteindre la 3e place en performance de vol. L’équipe livra également une présentation orale de qualité, ce qui leur valu la 3ème mplace dans cette catégorie. Au classement global, l’équipe menée par Pierre-Nicolas Stock termina 3e pour la compétition SAE West!
+At the SAE West competition, the aircraft performed exactly as the new performance evaluations predicted. It shocked its competitors with its consistency, which drove it to 3rd place in flight performance. The team also performed well in the technical presentation, finishing 3rd in the category. The team, led by Pierre-Nicolas Stock, won 3rd overall.
 
 ![](https://res.cloudinary.com/decninixz/image/upload/v1595355684/avion_cargo_site_web_full_res-2760_pjnddr.jpg)
 
