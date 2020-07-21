@@ -1,45 +1,11 @@
+import Markdown from "react-markdown/with-html";
 import { useEffect } from "react";
 import { withTranslation } from "react-i18next";
-import { Carousel } from "react-responsive-carousel";
-import Markdown from "react-markdown/with-html";
 
-const CAROUSEL_CONFIG = {
-  showThumbs: false,
-  showStatus: false,
-  useKeyboardArrows: false,
-  emulateTouch: true,
-  swipeable: true,
-  autoPlay: true,
-  infiniteLoop: true,
-  interval: 5000,
-};
-
-// TODO: duration bar
-
-const HomePage = ({ t, content }) => {
-  useEffect(() => {
-    if (typeof window !== undefined) {
-      const el = document.querySelector(".slider-wrapper");
-      el.style.setProperty("--content", `"${t("SEE OUR IDEAS TAKE FLIGHT.")}"`);
-    }
-  });
-
+const HomePage = ({ content, t }) => {
   return (
     <>
-      <Carousel {...CAROUSEL_CONFIG}>
-        {[1, 1, 1].map(() => (
-          <div>
-            <img
-              src={
-                "https://source.unsplash.com/1600x900/?image=" +
-                Math.floor(Math.random() * 1000)
-              }
-              alt=""
-            />
-            <p className="legend">Photo!</p>
-          </div>
-        ))}
-      </Carousel>
+      <iframe src={`/carousel?msg=${t("SEE OUR IDEAS TAKE FLIGHT.")}`} frameBorder="0"/>
       <div className="content">
         <div className="container">
           <div className="row">

@@ -126,32 +126,30 @@ const ContactPage = ({ t, i18n }) => {
         {/* TODO: get Yankee for this! */}
         <div className="row tooltip">
           <div className="col-xs">
-            <Trans>Local: C-572 Envois postaux:</Trans> <br />
+            <Trans>Room: C-572 Postal deliveries:</Trans> <br />
             <br />
             <Trans>École Polytechnique de Montréal</Trans> <br />
-            <Trans>À l'attention de l'Avion Cargo</Trans> <br />
-            <Trans>Campus de l'Université de Montréal</Trans> <br />
-            <Trans>Case postale 6079, Succursale "Centre-Ville"</Trans> <br />
+            <Trans>Under the name of Avion Cargo</Trans> <br />
+            <Trans>Université de Montréal campus</Trans> <br />
+            <Trans>Postal box 6079, Downtown branch</Trans> <br />
             <Trans>Montréal (Québec), H3C 3A7</Trans>
           </div>
           <div className="col-xs">
-            <Trans>Expédition et livraison:</Trans>
+            <Trans>Delivery and shipment:</Trans>
             <br />
             <br />
             <Trans>École Polytechnique de Montréal</Trans>
             <br />
-            <Trans>À l'attention de l'Avion Cargo</Trans>
+            <Trans>Under the name of Avion Cargo</Trans>
             <br />
-            <Trans>Campus de l'Université de Montréal</Trans>
+            <Trans>Université de Montréal campus</Trans>
             <br />
             <Trans>2900 Édouard Montpetit</Trans>
             <br />
             <Trans>Montréal (Québec), H3T 1J4</Trans>
             <br />
             <br />
-            <Trans>
-              Email address:
-            </Trans>{" "}
+            <Trans>Email address:</Trans>{" "}
             <a href="mailto:avioncargo@polymtl.ca">avioncargo@polymtl.ca</a>
           </div>
         </div>

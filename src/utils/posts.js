@@ -4,9 +4,15 @@ import matter from "gray-matter";
 
 export function getPostsByLanguage(lang) {
     const POSTS_DIR = `public/content/blog/${lang}`;
-    const files = fs.readdirSync(POSTS_DIR, {withFileTypes: true});
+    const files = fs.readdirSync(POSTS_DIR, {
+        withFileTypes: true
+    });
 
-    return files.filter(({name}) => name.endsWith('.md')).map(({name: filename}) => {
+    return files.filter(({
+        name
+    }) => name.endsWith('.md')).map(({
+        name: filename
+    }) => {
         const {
             content,
             data

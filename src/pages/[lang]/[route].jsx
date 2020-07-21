@@ -34,6 +34,7 @@ const LanguageSensitivePage = ({
 
 function getPageMarkdown(lang, slug) {
   const POSTS_DIR = `public/content/pages/${lang}`;
+  console.log(slug);
   try {
     return matter.read(path.join(POSTS_DIR, `${slug}.md`));
   } catch {
