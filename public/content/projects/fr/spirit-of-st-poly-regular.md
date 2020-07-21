@@ -12,5 +12,3 @@ En compétition, plusieurs problèmes furent rencontrés avec l’empennage. Cel
 ![](https://res.cloudinary.com/decninixz/image/upload/v1595355679/avion_cargo_site_web_full_res-0279_knrb6j.jpg)
 
 ![](https://res.cloudinary.com/decninixz/image/upload/v1595355682/avion_cargo_site_web_full_res-0358_ikdfzk.jpg)
-
-![](https://res.cloudinary.com/decninixz/image/upload/v1595355684/avion_cargo_site_web_full_res-2760_pjnddr.jpg)
