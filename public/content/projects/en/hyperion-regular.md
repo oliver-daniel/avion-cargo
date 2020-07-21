@@ -3,7 +3,7 @@ title: Hyperion - Regular
 date: "2010"
 language: en
 ---
-Le défi de la catégorie régulier 2010 entraînait non-seulement des restrictions de matériaux, mais également des contraintes de dimensions. À ce moment, aucun composite en plastique n’était permis et l’avion devraient porter le maximum de cargaison tout en ne dépassant pas la limite des dimensions. La somme de la longueur, hauteur et largeur ne pouvait pas dépasser 200 pouces et la baie de cargaison avait une minimum imposé de 5x5x10 pouces. Le Hyperion a réussi à rencontrer ces contraintes et plus. Un biplan fait de bois et d’aluminium, l’Hyperion a soulevé jusqu’à 11 livres de cargaison. L’équipe, menée par Anthony Rode, a gagné la première place dans la catégorie régulière pour la charge la plus lourde portée et au classement globale. 
+The challenge of the regular class this year entailed not only restrictions on materials but also dimension constraints. With no plastic composites permitted, the aircraft is intended to lift the maximum cargo all while respecting the dimensions limit. The sum of the length, height and width could not surpass 200 inches, and the cargo bay had an imposed minimum size of 5x5x10 inches. Hyperion succeeded in meeting these requirements and more. A biplane made of wood and aluminum, it lifted up to 11 pounds of cargo. The team, led by Anthony Rode, won first place in the regular class for most payload lifted and overall. 
 
 ![](https://res.cloudinary.com/decninixz/image/upload/v1595341508/Hyperion_1_vfilic.jpg)
 
