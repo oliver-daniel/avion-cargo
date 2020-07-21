@@ -1,7 +1,6 @@
 ---
-name: Emily Cohen - Directrice de Communications
+name: Emily Cohen - Directrice Communications
 language: fr
+picture: https://res.cloudinary.com/decninixz/image/upload/v1595281393/Emily_red_bddgmy.jpg
 ---
-![](https://res.cloudinary.com/decninixz/image/upload/v1595281393/Emily_red_bddgmy.jpg "Emily Cohen ")
-
 Je m’occupe de la gestion de toutes les communications à l’externe de la société technique. Je gère nos collaborations avec les autres sociétés étudiantes de Polytechnique ainsi que les mises à jour pour nos merveilleux commanditaires. Je suis une étudiante de deuxième année en génie aérospatiale et c’est ma deuxième année avec l’Avion Cargo. J’adore mon expérience auprès de l’Avion Cargo car tout le monde apporte une attitude positive et je n’ai jamais eu autant de plaisir à apprendre.
