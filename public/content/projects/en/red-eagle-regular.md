@@ -3,7 +3,7 @@ title: "Red Eagle - Regular "
 date: "2012"
 language: en
 ---
-L’équipe de Polytechnique de 2012 a relevé le défi de construire l’avion qui soulève le maximum de cargaison tout en ayant des dimensions qui ne dépassent pas 225 pouces et que l’avion décolle en moins de 200 pieds. L’équipe a montré son talent en présentant le Red Eagle, un monoplan aérodynamique. Il porte un profil d’aile fait par l’équipe et testé en soufflerie contre des profils traditionnelles. Également, l’équipe a développé une système de variation d’angle d’incidence de l’aile qui, malheureusement, n’a pas été prêt pour la compétition. Le Red Eagle a volé avec 34,1 livres de cargaison. L’équipe, menée par Martin Lafrance, a terminé 1e en présentation oral, 2e en design, 2e pour la charge la plus lourde portée et 1e globalement.
+The 2012 Polytechnique team dove head-first into the challenge of building the airplane that lifts the most cargo, all while respecting the dimensions limit of 225 inches and taking off in less than 200 feet. The team displayed their talents in presenting the Red Eagle, an aerodynamic monoplane. It had a home-made airfoil, tested in a wind tunnel against traditional airfoils. As well, the team developed a wing incidence angle control system but unfortunately, it was not ready in time for the competition. The Red Eagle flew with 34.1 pounds of cargo. The team, led by Martin Lafrance, finished 1st in technical presentation, 2nd in design, 2nd for most payload lifted and 1st overall. 
 
 ![](https://res.cloudinary.com/decninixz/image/upload/v1595342948/red_eagle_07_jdwbcn.jpg)
 
