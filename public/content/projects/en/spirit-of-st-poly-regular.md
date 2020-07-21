@@ -3,11 +3,11 @@ title: Spirit of St. Poly - Regular
 date: "2018"
 language: en
 ---
-Le but de la compétition de cette année était de transporter des balles de tennis faisant office de passager ainsi que des plaques d’acier faisant office de bagages. L’avion regular de 2017-2018 a complètement changé sa configuration par rapport à l’avion de l’année précédente. À la place d’un plan vertical de balles, les balles de tennis étaient placées à l’horizontal. L’avion était plus large, mais moins sensible aux vents de travers. 
+The challenge of the competition was to transport tennis balls which represented passengers, as well as steel plates representing baggage. The 2017-2018 regular aircraft completely changed its configuration from the previous years’ design. Instead of a vertical plane of balls, the tennis balls were placed horizontally. While the airplane was much wider, it was less affected by crosswinds. 
 
-Le design de Spirit of St Poly a été centré sur une nouvelle configuration d’aile optimisée. Le restant de l’avion était relativement classique: train tricycle, configuration tracteur, tailboom. 
+The design of Spirit of St Poly was focused on a new and optimised design of the wing. The rest of the configuration remained relatively classic: tricycle landing gear, tractor configuration and a tailboom. 
 
-En compétition, plusieurs problèmes furent rencontrés avec l’empennage. Celui-ci, sous l’effet d’efforts importants, tordait et rendait le contrôle difficile. L’Avion réussit tout de même à accomplir une ronde de vol. L’équipe a terminé 19e au classement global,dirigée par Philippe Léger.
+At competition, several problems arose with the empennage. Feeling the effects of considerable efforts, it twisted and made control more difficult. Avion Cargo still successfully completed one flight round. The team, led by Phillipe Léger, finished 19th overall. 
 
 ![](https://res.cloudinary.com/decninixz/image/upload/v1595355679/avion_cargo_site_web_full_res-0279_knrb6j.jpg)
 
