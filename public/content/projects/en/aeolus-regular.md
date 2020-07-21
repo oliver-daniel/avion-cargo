@@ -3,7 +3,7 @@ title: "Aeolus - Regular "
 date: "2014"
 language: en
 ---
-Avec la somme des dimensions qui ne dépassent pas les 175 pouces permise par les règlements, Aeolus avait un cargaison maximale de 28.4 livres. L’équipe, menée par Sabrina Watelle, avait également le défi d’un décollage en moins de 200 pieds et de débarquer la cargaison dans moins d’une minute. L’Aeolus était un monoplan avec une aile haute, un empennage en H et un nez qui ouvre à la baie de cargaison. 
+The micro class challenge for 2013 was to fit the aircraft and its payload in a container of a certain size, with each component having its own place in the foam lining of the container. As well, the weight of the aircraft must be less than two pounds. The Harfang was a monoplane high-wing that weighed in at 1.04 pounds. The team, led by Gabriel Bedi Ebanda, undertook the challenge with a maximum payload of 2.74 pounds.
 
 ![](https://res.cloudinary.com/decninixz/image/upload/v1595351791/2014aeolus2_j5ha6j.png)
 
