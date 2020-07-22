@@ -1,5 +1,5 @@
 ---
-title: Mission & Histoire
+title: L'équipe - 1
 language: fr
 ---
 > ***Déclaration de mission :*** 
