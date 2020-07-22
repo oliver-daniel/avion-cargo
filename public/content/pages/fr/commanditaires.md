@@ -1,5 +1,5 @@
 ---
-title: Commanditaires
+title: L'équipe - 2
 language: fr
 ---
 Avion Cargo Polytechnique ne pourra jamais accomplir nos projets sans l’aide de nos merveilleux commanditaires. Tous nos succès et victoires sont grâce à leur générosité. Nous tenons de vous informer 
