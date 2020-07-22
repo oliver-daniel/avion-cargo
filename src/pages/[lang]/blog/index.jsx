@@ -10,7 +10,6 @@ const BlogPage = ({ posts }) => (
     </Head>
     <Page>
       <div>This is the blog.</div>
-      <p>bitch.</p>
       <p>I can show up to {posts?.length} posts.</p>
 
       <ul>

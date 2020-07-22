@@ -17,7 +17,7 @@ const renderers = {
 
 const PostPage = ({ post, locale_date, t }) => {
   const { content, data } = post;
-  const { title, slug, author, publish_date } = data;
+  const { title, slug, author, thumbnail } = data;
 
   return (
     <>
@@ -35,6 +35,7 @@ const PostPage = ({ post, locale_date, t }) => {
               </small>
             </h4>
             <div className="content">
+              {thumbnail && <img src={thumbnail} alt="" />}
               <Markdown source={content} renderers={renderers} />
             </div>
           </article>
@@ -55,7 +56,11 @@ export async function getStaticProps({ params: { lang, slug } }) {
 
   moment.locale(lang);
 
-  const locale_date = moment(post.data.publish_date, "'YYYY-MM-DD'", true).format(fmt);
+  const locale_date = moment(
+    post.data.publish_date,
+    "'YYYY-MM-DD'",
+    true
+  ).format(fmt);
 
   return {
     props: {

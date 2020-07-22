@@ -10,6 +10,11 @@
             margin: 1em 0;
         }
 
+        .content {
+            font-family: 'Orkney Light';
+            line-height: 1.2;
+        }
+
 
         h1 {
             font-size: 3.33333em;
@@ -48,6 +53,7 @@
             display: block;
             margin: 1em auto;
             max-width: 80vw;
+            max-height: 50vh;
 
             +em {
                 margin-left: 1.5rem;
