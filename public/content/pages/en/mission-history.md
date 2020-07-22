@@ -1,5 +1,5 @@
 ---
-title: Mission & History
+title: "About us - 1 "
 language: en
 ---
 > ***Mission statement:*** We are a close-knit team of engineering students utilizing our problem-solving skills to become the leaders and engineers of tomorrow through practical engineering challenges from competing annually at SAE’s Aero Design competitions. 
