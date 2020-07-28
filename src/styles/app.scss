@@ -27,7 +27,7 @@ h1 {
     font-size: 36px;
     color: $grey-700;
 
-    .keyword {
+    .keyword, strong {
         color: $red-300;
     }
 
@@ -63,6 +63,12 @@ ul {
         }
     }
 
+}
+
+.Page {
+    .content p {
+        max-width: 75ch;
+    }
 }
 
 .card {

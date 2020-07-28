@@ -1,26 +1,21 @@
 #home {
-    
-    h1 {
-        strong {
-            @extend .keyword;
-        }
-    }
 
-    .content [class^=col-]{
+
+
+    .content [class^=col-] {
         padding: 0 1em;
-        
-        @media only screen and (min-width: $sm){
-            &:not(:first-of-type){
+
+        @media only screen and (min-width: $sm) {
+            &:not(:first-of-type) {
                 margin-top: 3.1em;
             }
         }
     }
 
-    iframe{
+    iframe {
         width: 100%;
-        min-height: 33em;
-        max-height: 25vh;
-        height: 100%;
+        height: calc(100vw * 540 / 1440 + 40px);
+        margin-bottom: 40px;
         overflow: hidden;
     }
 }

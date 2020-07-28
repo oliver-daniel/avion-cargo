@@ -70,7 +70,7 @@ export async function getStaticPaths() {
 
 export async function getStaticProps({ params: props }) {
   const { lang, route } = props;  
-  const slug = route ? route : lang === "en" ? "homepage" : "accueil";
+  const slug = route ? route : lang === "en" ? "home" : "accueil";
   let { content } = getPageMarkdown(lang, slug);
   content = content.split("\n---\n");
 
