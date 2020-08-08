@@ -1,15 +1,19 @@
 import HomePage from '../../containers/home/HomePage'
+import AboutPage from '../../containers/about/AboutPage';
 import ContactPage from '../../containers/contact/ContactPage';
 
 import TestPage from '../../containers/test/TestPage'
+import ProjectsPage from '../../containers/projects/ProjectsPage';
 
 const ROUTES = {
     home: {
         en: {
-            href: ''
+            href: '',
+            pages: ['home.md']
         },
         fr: {
-            href: ''
+            href: '',
+            pages: ['accueil.md']
         },
         title: "Home",
         Component: HomePage
@@ -17,12 +21,14 @@ const ROUTES = {
     about: {
         en: {
             href: 'about',
+            pages: ['mission-history.md', 'sponsors.md']
         },
         fr: {
             href: 'equipe',
+            pages: ['mission-histoire.md', 'commanditaires.md']
         },
         title: "About Us",
-        Component: TestPage,
+        Component: AboutPage,
     },
     projects: {
         en: {
@@ -32,7 +38,7 @@ const ROUTES = {
             href: 'projets',
         },
         title: "Projects",
-        Component: TestPage,
+        Component: ProjectsPage,
     },
     contact: {
         en: {

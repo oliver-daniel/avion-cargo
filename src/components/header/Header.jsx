@@ -22,7 +22,7 @@ const handleLanguageChange = (i18n) => ({ target: { lang: targetLang } }) => {
 
   const url = `/${targetLang}/${dest}`;
   i18n.changeLanguage(targetLang);
-  Router.replace("/[lang]/[route]", url, { shallow: true });
+  Router.replace("/[lang]/[route]", url, { shallow: false });
 };
 
 const LanguageSwitch = ({ i18n }) => (

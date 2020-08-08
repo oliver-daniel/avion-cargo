@@ -10,6 +10,7 @@ $linear-gradient: linear-gradient(92.94deg, $red-900 0%, $red-300 100%);
 $radial-gradient: radial-gradient($red-300, $red-900);
 
 $header-footer-height: 2.5rem;
+$carousel-height: calc(100vw * 1 / 3 + 40px);
 
 $xs: 575px;
 $sm: 767px;

@@ -1,6 +1,6 @@
 .carousel {
     // overflow: hidden;
-    height: calc(100vw * 540 / 1440 + 40px);
+    height: $carousel-height;
     // width: 100%;
 
     $magic-number: 30em;
@@ -32,7 +32,7 @@
 
         .slide {
             position: relative;
-            height: calc(100vw * 540 / 1440 + 40px);
+            height: $carousel-height;
             img {
                 height: 100%;
                 object-fit: cover;

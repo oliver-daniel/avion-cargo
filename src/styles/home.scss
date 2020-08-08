@@ -14,7 +14,7 @@
 
     iframe {
         width: 100%;
-        height: calc(100vw * 540 / 1440 + 40px);
+        height: $carousel-height;
         margin-bottom: 40px;
         overflow: hidden;
     }

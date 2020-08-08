@@ -9,25 +9,26 @@ export function getPostsByLanguage(lang) {
     });
 
     return files.filter(({
-        name
-    }) => name.endsWith('.md')).map(({
-        name: filename
-    }) => {
-        const {
-            content,
-            data
-        } = matter.read(
-            path.join(POSTS_DIR, filename)
-        );
-        return {
-            content,
-            data: {
-                ...data,
-                publish_date: data.publish_date.toLocaleString(),
-                slug: filename.slice(0, -3)
+            name
+        }) => name.endsWith('.md'))
+        .map(({
+            name: filename
+        }) => {
+            const {
+                content,
+                data
+            } = matter.read(
+                path.join(POSTS_DIR, filename)
+            );
+            return {
+                content,
+                data: {
+                    ...data,
+                    publish_date: data.publish_date.toLocaleString(),
+                    slug: filename.slice(0, -3)
+                }
             }
-        }
-    })
+        })
 }
 
 export function getPost(lang, slug) {

@@ -4,6 +4,9 @@ import routes from "../../components/routes";
 import matter from "gray-matter";
 import path from "path";
 
+import { getProjectsByLanguage } from "../../utils/projects";
+import { getExecBiosByLanguage } from "../../utils/bios";
+
 import { withTranslation } from "react-i18next";
 
 const LanguageSensitivePage = ({
@@ -34,9 +37,8 @@ const LanguageSensitivePage = ({
 
 function getPageMarkdown(lang, slug) {
   const POSTS_DIR = `public/content/pages/${lang}`;
-  console.log(slug);
   try {
-    return matter.read(path.join(POSTS_DIR, `${slug}.md`));
+    return matter.read(path.join(POSTS_DIR, `${slug.replace(".md", "")}.md`));
   } catch {
     return { content: "COMING SOON!", data: {} };
   }
@@ -69,16 +71,35 @@ export async function getStaticPaths() {
 }
 
 export async function getStaticProps({ params: props }) {
-  const { lang, route } = props;  
+  const { lang, route } = props;
   const slug = route ? route : lang === "en" ? "home" : "accueil";
-  let { content } = getPageMarkdown(lang, slug);
-  content = content.split("\n---\n");
+
+  const entry = Object.values(routes).find(
+    (rt) => !route || rt[lang].href === slug
+  );
+
+  let content;
+  if (!/projec?ts/.test(slug)) {
+    content =
+      entry[lang].pages?.map((fn) =>
+        getPageMarkdown(lang, fn).content.split("\n---\n")
+      ) || [];
+  } else {
+    const projects = getProjectsByLanguage(lang);
+    content = projects;
+  }
+
+  const data = {
+    ...props,
+    content,
+  };
+
+  if (["about", "equipe"].includes(slug)) {
+    data.bios = getExecBiosByLanguage(lang);
+  }
 
   return {
-    props: {
-      ...props,
-      content,
-    },
+    props: data,
   };
 }
 
