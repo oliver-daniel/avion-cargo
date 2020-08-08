@@ -86,6 +86,13 @@ collections:
       - { label: "Project Title", name: "title", widget: "string" }
       - { label: "Year", name: "date", widget: "string", default: "2020" }
       - {
+          label: "Class",
+          name: "class",
+          widget: "select",
+          options: ["micro", "regular"],
+          default: "micro",
+        }
+      - {
           label: "Language",
           name: "language",
           widget: "select",
@@ -109,12 +116,7 @@ collections:
           options: ["en", "fr"],
           default: "en",
         }
-      - {
-        label: "Picture",
-        name: "picture",
-        widget: "image",
-        required: false,
-      }
+      - { label: "Picture", name: "picture", widget: "image", required: false }
       - { label: "Body", name: "body", widget: "markdown" }
   - name: "carousel"
     label: "Carousel Photos"
@@ -122,6 +124,6 @@ collections:
     folder: "public/content/carousel"
     create: true
     fields:
-      - { label: "Name",   name: "name",   widget: "string" }
-      - { label: "Image",  name: "img",    widget: "image" }
+      - { label: "Name", name: "name", widget: "string" }
+      - { label: "Image", name: "img", widget: "image" }
       - { label: "Credit", name: "credit", widget: "string" }
