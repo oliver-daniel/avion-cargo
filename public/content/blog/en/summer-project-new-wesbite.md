@@ -1,5 +1,5 @@
 ---
-title: Summer project - New wesbite!
+title: Summer project - New website!
 author: Emily Cohen, Marie-Ève Lamer, Laurent Emond-Brunet
 language: en
 publish_date: "'2020-07-21'"
