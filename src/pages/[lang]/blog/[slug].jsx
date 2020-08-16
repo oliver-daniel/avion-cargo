@@ -1,5 +1,5 @@
 import Page from "../../../containers/Page";
-import Markdown from "react-markdown";
+import Markdown from "../../../utils/markdown";
 import Head from "next/head";
 import { Trans, withTranslation } from "react-i18next";
 import { getPostsByLanguage, getPost } from "../../../utils/posts";

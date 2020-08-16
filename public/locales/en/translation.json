@@ -4,6 +4,8 @@
   "Projects": "Projects",
   "Blog": "Blog",
   "Contact": "Contact",
+  "SEE LESS": "SEE LESS",
+  "SEE MORE": "SEE MORE",
   "LET'S STAY IN <1>TOUCH.</1>": "LET'S STAY IN <1>TOUCH.</1>",
   "Drop us a line": "Drop us a line",
   "You've got mail!": "You've got mail!",
@@ -21,8 +23,8 @@
   "2900 Édouard Montpetit": "2900 Édouard Montpetit",
   "Montréal (Québec), H3T 1J4": "Montréal (Québec), H3T 1J4",
   "Email address:": "Email address:",
-  "SEE OUR IDEAS TAKE FLIGHT.": "SEE OUR IDEAS TAKE FLIGHT.",
   "By": "By",
+  "SEE OUR IDEAS TAKE FLIGHT.": "SEE OUR IDEAS TAKE FLIGHT.",
   "Home": "Home",
   "Welcome to <1>Next.js!</1>": "Welcome to <1>Next.js!</1>"
 }

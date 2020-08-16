@@ -1,10 +1,12 @@
 #contact {
-    // filter: blur(5px);
-    background: url('https://source.unsplash.com/1600x900/');
+    background: url('https://res.cloudinary.com/decninixz/image/upload/e_blur:800/v1595359672/avion_cargo_site_web_full_res-08503-crop_rrwipz.jpg');
+    background-size: cover;
+
 
     .card {
         margin: 75px auto;
         max-width: $sm;
+        padding: 2.5em;
 
         h1 {
             font-size: 32px;

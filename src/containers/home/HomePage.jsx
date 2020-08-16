@@ -1,4 +1,4 @@
-import Markdown from "react-markdown/with-html";
+import Markdown from '../../utils/markdown';
 
 const HomePage = ({ content, i18n: { language } }) => {
   const [intro] = content;

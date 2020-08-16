@@ -28,7 +28,11 @@ const LanguageSensitivePage = ({
         <title>{t(title)} | Avion Cargo</title>
       </Head>
       {
-        tReady ? <Component {...pageProps} /> : <div>Loading...</div>
+        tReady ? (
+          <Component {...pageProps} tReady={tReady} t={t} />
+        ) : (
+          <div>Loading...</div>
+        )
         // TODO: prettier
       }
     </Page>
@@ -79,14 +83,14 @@ export async function getStaticProps({ params: props }) {
   );
 
   let content;
-  if (!/projec?ts/.test(slug)) {
+  if (/projec?ts/.test(slug)) {
+    const projects = getProjectsByLanguage(lang);
+    content = projects;
+  } else {
     content =
       entry[lang].pages?.map((fn) =>
         getPageMarkdown(lang, fn).content.split("\n---\n")
       ) || [];
-  } else {
-    const projects = getProjectsByLanguage(lang);
-    content = projects;
   }
 
   const data = {
