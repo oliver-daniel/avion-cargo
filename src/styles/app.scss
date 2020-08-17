@@ -102,6 +102,10 @@ ul {
         font-size: 0.9em;
     }
 
+    .details {
+        padding: 1.5em 0.5em;
+    }
+
     .subtitle {
         text-transform: uppercase;
         font-size: 0.75em;
@@ -112,4 +116,10 @@ ul {
         font-size: 0.8em;
         font-weight: 600;
     }
+}
+
+.well {
+    border-radius: 12px;
+    background: $grey-500;
+    box-shadow: inset 0px 4px 4px rgba(0, 0, 0, 0.25);
 }

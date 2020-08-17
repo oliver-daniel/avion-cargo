@@ -1,4 +1,5 @@
 import { useState } from "react";
+import { Trans } from "react-i18next";
 import Markdown from "../../utils/markdown";
 
 const HorizontalCard = ({
@@ -47,7 +48,9 @@ const TEAM_PHOTO =
   "https://res.cloudinary.com/decninixz/image/upload/v1595283815/avion_cargo_site_web_full_res-08202_ne6ywj.jpg";
 
 const AboutPage = ({ content, bios, t, tReady }) => {
-  const [missionHistory, sponsors] = content;
+  const [missionHistory, [_sponsors]] = content;
+  console.log(_sponsors);
+  const [mention, ...sponsors] = _sponsors.split("\n\n");
   const [clickIndex, setClickIndex] = useState(-1);
   return (
     <>
@@ -66,7 +69,9 @@ const AboutPage = ({ content, bios, t, tReady }) => {
               </div>
             ))}
           </div>
-          <h3>Execs</h3>
+          <h3>
+            <Trans>Execs</Trans>
+          </h3>
           <div className="row">
             {bios.map((bio, i) => (
               <HorizontalCard
@@ -78,13 +83,18 @@ const AboutPage = ({ content, bios, t, tReady }) => {
               />
             ))}
           </div>
-          <h3>Sponsors</h3>
-          <div className="row">
-            <div className="col-xs-12">
-              {sponsors.map((src) => (
-                <Markdown source={src} />
-              ))}
-            </div>
+          <h3>
+            <Trans>Sponsors</Trans>
+          </h3>
+          <p className="sponsors__mention">{mention}</p>
+          <div className="row around-xs well">
+            {sponsors.map((src) => (
+              <div className="card">
+                <div className="details">
+                  <Markdown source={src} />
+                </div>
+              </div>
+            ))}
           </div>
         </div>
       </div>

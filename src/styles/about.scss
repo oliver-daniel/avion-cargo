@@ -42,7 +42,6 @@
 
             .details {
                 margin-left: 1em;
-                padding: 1.5em 0.5em;
                 margin-bottom: 1.5em;
                 position: relative;
                 max-width: calc(75% - 3em);
@@ -80,6 +79,22 @@
                 position: absolute;
                 left: calc(25% + 2em);
                 bottom: 5px;
+            }
+        }
+    }
+    p.sponsors__mention {
+        margin-bottom: 2em;
+    }
+    .well {
+        padding: 10px;
+        margin-top: 15px;
+        .card {
+            width: 300px;
+            margin: 10px;
+            margin-bottom: 15px;
+            flex: auto;
+            .details {
+                padding: 1.5em;
             }
         }
     }
