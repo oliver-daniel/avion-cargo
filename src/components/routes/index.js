@@ -33,9 +33,11 @@ const ROUTES = {
     projects: {
         en: {
             href: 'projects',
+            pages: ['message-to-alumni-projects-page-1.md']
         },
         fr: {
             href: 'projets',
+            pages: ['message-pour-anciens-page-projets.md']
         },
         title: "Projects",
         Component: ProjectsPage,

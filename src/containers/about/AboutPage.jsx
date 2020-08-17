@@ -49,7 +49,6 @@ const TEAM_PHOTO =
 
 const AboutPage = ({ content, bios, t, tReady }) => {
   const [missionHistory, [_sponsors]] = content;
-  console.log(_sponsors);
   const [mention, ...sponsors] = _sponsors.split("\n\n");
   const [clickIndex, setClickIndex] = useState(-1);
   return (

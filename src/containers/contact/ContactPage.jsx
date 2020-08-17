@@ -24,7 +24,7 @@ const SOCIALS = [
   },
   {
     Icon: () => (
-      <Feather.Mail className="icon" size={40} data-tip data-for="email" />
+      <Feather.Mail className="icon" size={48} data-tip data-for="email" />
     ),
   },
 ];
@@ -73,7 +73,7 @@ const ContactPage = ({ t, i18n }) => {
                       <a href={href} target="_blank" rel="noreferrer">
                         <Icon
                           className="icon"
-                          size={40}
+                          size={48}
                           {...(tip && {
                             "data-tip": tip,
                           })}
@@ -154,7 +154,7 @@ const ContactPage = ({ t, i18n }) => {
           </div>
         </div>
       </Tooltip>
-      <Tooltip effect="solid" />
+      <Tooltip effect="solid" place="bottom" />
     </div>
   );
 };

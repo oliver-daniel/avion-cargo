@@ -82,16 +82,10 @@ export async function getStaticProps({ params: props }) {
     (rt) => !route || rt[lang].href === slug
   );
 
-  let content;
-  if (/projec?ts/.test(slug)) {
-    const projects = getProjectsByLanguage(lang);
-    content = projects;
-  } else {
-    content =
-      entry[lang].pages?.map((fn) =>
-        getPageMarkdown(lang, fn).content.split("\n---\n")
-      ) || [];
-  }
+  const content =
+    entry[lang].pages?.map((fn) =>
+      getPageMarkdown(lang, fn).content.split("\n---\n")
+    ) || [];
 
   const data = {
     ...props,
@@ -100,6 +94,9 @@ export async function getStaticProps({ params: props }) {
 
   if (["about", "equipe"].includes(slug)) {
     data.bios = getExecBiosByLanguage(lang);
+  } else if (/projec?ts/.test(slug)) {
+    const projects = getProjectsByLanguage(lang);
+    data.projects = projects;
   }
 
   return {

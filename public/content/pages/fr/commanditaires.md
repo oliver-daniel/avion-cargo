@@ -22,7 +22,7 @@ APC propellers a été fondé en 1989 et est basée en Californie, USA. Elle pro
 [Desjardins](https://www.desjardins.com/ca/index.jsp)
 Fondé en 1900, Desjardins sert présentement plus de 7 millions de clients et compte plus de 45 000 employés. Elle est parmi les 100 meilleurs employeurs au Canada et le 1e groupe financier coopératif du Canada. Desjardins tient au coeur de ses valeurs la communauté et la simplicité. Elle fait des contributions à la recherche du développement durable et à l’éducation des jeunes qui fait preuve de son responsabilité sociale. 
 
-[Universel ](https://unisafetyshop.com/)
+[Universel]$1 
 UniSafetyShop est un distributeur d'équipement de protection basée à Montréal. Ils distribuent douze marques différentes. UniSafetyShop offre des articles de type chaussures, workwear, médicale ou protection personnelle. 
 
 [FAIE](https://www.aep.polymtl.ca/faie)
