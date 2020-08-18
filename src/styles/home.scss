@@ -18,4 +18,9 @@
         margin-bottom: 40px;
         overflow: hidden;
     }
+    @media only screen and (max-width: $sm){
+        h1 {
+            font-size: 3em;
+        }
+    }
 }

@@ -7,19 +7,19 @@ Avion Cargo Polytechnique would never be able to accomplish our projects without
 [Isolofoam](https://isolofoam.com/en/isolofoam-company/)
 Isolofoam is a québec-based company that manufactures eco-responsable, high quality products in EPS. They service the construction, civil engineering and packaging industries. 
 
-[TeraXion]$1 
+[TeraXion] 
 TeraXion is a québec-based company that develops and manufactures “innovative photonic components that incorporate fiber Bragg gratings, low noise lasers and integrated photonics”. It participates in the industries of telecommunications, medical appliances, aerospace and defense. 
 
 [APN Global](http://apnglobal.ca/en/)
 APN Global is a group of six companies specialised in the manufacturing of complex components for the aeronautical, defense, biological sciences and commercial industries. In 2018, it won the SME of the year in aerospace at the Grand Prix Gilles-Demers 2018. APN Global has a reputation of creating high quality pieces and is certified to the highest standards in Canada. 
 
-[3M]$1 
+[3M] 
 3M is a conglomeration of scientific and technological companies that operate in 11 different industries including transport, automobile and energy. They produce over 50 000 products destined for companies and consumers. 
 
-[APC propellers]$1 
+[APC propellers] 
 APC propellers was founded in 1989 in California, USA. It produces propellers for acrobatic and model airplanes as well as drones. Over 500 propellers are currently available on the APC website, with a range of sizes and materials. 
 
-[Desjardins]$1 
+[Desjardins] 
 Founded in 1900, Desjardins currently services more than 7 million clients and employs over 45 000 employees. It is amongst the top 100 employers in Canada and is the first financial cooperative in the country. Desjardins holds community and simplicity as its core values. It contributes to its community through sustainability initiatives and financial education programs. 
 
 [Universel](https://unisafetyshop.com/)
@@ -28,7 +28,7 @@ UniSafetyShop is a distributor of protective equipment based in Montreal. It dis
 [FAIE](https://www.aep.polymtl.ca/faie)
 The FAIE is a student-run committee that works out of the Polytechnique Student Association with the mission to finance student projects at Polytechnique Montréal. The committee is made of students who are passionate about helping their colleagues in their initiatives. 
 
-[MATS]$1 
+[MATS] 
 Montreal Area Thermal Soarers is a club of aeronautics enthusiasts, engineers and remote controlled aircraft pilots who design and build gliders and electric RC airplanes. They participate in local tournaments, such as the Interclub series, as well as internationally. 
 MATS is an enormous source of mentorship for us at Avion Cargo. They give us training and workshops in CAD, manufacturing techniques and design methodology. As well, they participated in the preliminary design review for the regular class team and offered their expert opinion in the design of the airplane. 
 

@@ -1,30 +1,6 @@
 @import './typeplate-sk/typeplate-index';
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 
-@font-face{
-    font-family: 'Orkney-Regular';
-    src: url('../../public/font/orkney/orkney-regular.otf') format('otf');
-    font-weight: normal;
-}
-
-@font-face{
-    font-family: 'Orkney-Bold';
-    src: url('../../public/font/orkney/orkney-bold.otf') format('otf');
-    font-weight: bold;
-}
-
-@font-face{
-    font-family: 'Orkney-Medium';
-    src: url('../../public/font/orkney/orkney-medium.otf') format('otf');
-    font-weight: 500;
-}
-
-@font-face{
-    font-family: 'Orkney-Light';
-    src: url('../../public/font/orkney/orkney-light.otf') format('otf');
-    font-weight: lighter;
-}
-
 @import 'variables';
 @import 'header';
 @import 'footer';
@@ -101,6 +77,10 @@ ul {
     }
 
     .content {
+
+        h3 {
+            margin-top: 1em;
+        }
 
         p,
         img,
