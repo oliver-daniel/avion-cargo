@@ -17,6 +17,8 @@
             flex-direction: row;
             position: relative;
 
+            transition: transform 0.2s ease-in-out;
+
             .media {
                 min-width: 25%;
                 // margin: -35px;
@@ -69,6 +71,9 @@
                 .details p {
                     max-height: 50%;
                     transition: max-height 0.2s ease-in-out 0s;
+                }
+                &:hover {
+                    transform: translateY(-5px);
                 }
             }
 

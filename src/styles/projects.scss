@@ -2,11 +2,62 @@
 #projets {
     .well {
         padding: 15px;
+
         .card {
             max-height: 200px;
             overflow: hidden;
-            & + .card {
-                margin-top: 15px;
+            position: relative;
+
+            cursor: pointer;
+            transition: transform 0.2s ease-in-out;
+
+            &+.card {
+                margin-top: 20px;
+            }
+
+            &:hover {
+                transform: translateY(-5px);
+            }
+
+            $media-width: 30%;
+
+            .media {
+                position: absolute;
+                top: 0;
+                left: 0;
+                height: 100%;
+                width: $media-width;
+                background-size: cover;
+                background-position: 50% 50%;
+
+                &::after {
+                    content: '';
+                    position: absolute;
+                    background: $linear-gradient;
+                    width: 3px;
+                    top: 0;
+                    height: 100%;
+                    right: 0px;
+                }
+            }
+
+            .media~* {
+                margin-left: $media-width;
+                padding-left: 5px;
+            }
+
+            .see-more {
+                position: absolute;
+                bottom: 0;
+                left: 0;
+                padding-left: 10px;
+                background: $white-200;
+                background: linear-gradient(180deg, rgba(255, 255, 255, 0) 0%, $white-200 50%);
+
+                height: 4em;
+                width: 100%;
+                display: flex;
+                align-items: flex-end;
             }
         }
     }

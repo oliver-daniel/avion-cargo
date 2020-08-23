@@ -7,14 +7,6 @@ import { getPostsByLanguage, getPost } from "../../../utils/posts";
 import moment from "moment";
 import "moment/locale/fr-ca";
 
-const renderers = {
-  blockquote: (props) => (
-    <aside className="typl8-pull-quote">
-      <blockquote {...props} />
-    </aside>
-  ),
-};
-
 const PostPage = ({ post, locale_date, t }) => {
   const { content, data } = post;
   const { title, slug, author, thumbnail } = data;
@@ -36,7 +28,7 @@ const PostPage = ({ post, locale_date, t }) => {
             </h4>
             <div className="content">
               {thumbnail && <img src={thumbnail} alt="" />}
-              <Markdown source={content} renderers={renderers} />
+              <Markdown source={content} />
             </div>
           </article>
         </div>

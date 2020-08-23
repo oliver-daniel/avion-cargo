@@ -25,8 +25,12 @@
   "2900 Édouard Montpetit": "2900 Édouard Montpetit",
   "Montréal (Québec), H3T 1J4": "Montréal (Québec), H3T 1J4",
   "Email address:": "Email address:",
+  "Rocking the runway since": "Rocking the runway since",
+  "{title}": "{title}",
   "By": "By",
   "Latest updates": "Latest updates",
+  "Rocking the runway since <1>1996.</1>": "Rocking the runway since <1>1996.</1>",
+  "Rocking the runway since <1>1996</1>.": "Rocking the runway since <1>1996</1>.",
   "SEE OUR IDEAS TAKE FLIGHT.": "SEE OUR IDEAS TAKE FLIGHT.",
   "Home": "Home",
   "Welcome to <1>Next.js!</1>": "Welcome to <1>Next.js!</1>"
