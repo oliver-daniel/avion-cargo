@@ -14,4 +14,4 @@ En compétition SAE West, l’Avion rencontra avec succès les nouvelles évalua
 
 ![](https://res.cloudinary.com/decninixz/image/upload/v1595355684/avion_cargo_site_web_full_res-2760_pjnddr.jpg)
 
-![](https://res.cloudinary.com/decninixz/image/upload/v1595360184/avion_cargo_site_web_full_res-0120-2_mk8aoe.jpg)
+![](https://res.cloudinary.com/decninixz/image/upload/v1598149777/avion_cargo_site_web_full_res-1150115_du4gg1.jpg)
