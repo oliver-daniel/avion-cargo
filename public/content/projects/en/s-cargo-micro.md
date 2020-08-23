@@ -1,6 +1,7 @@
 ---
-title: S-Cargo - Micro
+title: S-Cargo
 date: "2018"
+class: micro
 language: en
 ---
 The 2017-2018 challenge was the first of its three year cycle and brought in a new set of rules for the micro class. The key design components of the small airplane are to be disassembled and stored in a shoebox as well as to be quickly re-assembled. An added level of difficulty was the payload of the aircraft: PVC tubes with 2” diameters. These plastic tubes had to be stored with the aircraft in the shoebox. 
