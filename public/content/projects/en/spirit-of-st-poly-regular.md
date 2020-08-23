@@ -1,6 +1,7 @@
 ---
-title: Spirit of St. Poly - Regular
+title: Spirit of St. Poly
 date: "2018"
+class: regular
 language: en
 ---
 The challenge of the competition was to transport tennis balls which represented passengers, as well as steel plates representing baggage. The 2017-2018 regular aircraft completely changed its configuration from the previous years’ design. Instead of a vertical plane of balls, the tennis balls were placed horizontally. While the airplane was much wider, it was less affected by crosswinds. 
