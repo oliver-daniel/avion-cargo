@@ -1,5 +1,5 @@
 ---
-title: Témoignage - Chris et Cam
+title: Témoignage - Cris et Cam
 author: Camila Diaz et Cristiana Deac
 language: fr
 publish_date: "'2020-07-21'"

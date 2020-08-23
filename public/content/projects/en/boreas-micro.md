@@ -1,6 +1,7 @@
 ---
-title: Boreas - Micro
+title: Boreas
 date: "2019"
+class: micro
 language: en
 ---
 The challenge of the Micro class 2018-2019 was the same challenge as 2019-2020: the aircraft was designed to be disassembled and stored in a small box, with a cargo load in the form of PVC tubes. 

@@ -1,6 +1,7 @@
 ---
-title: S-Cargo - Regular
+title: S-Cargo
 date: "2019"
+class: regular
 language: en
 ---
 In 2018-2019, the regular team was still transporting tennis balls and steel plates to represent passengers and their baggage. Building off of previous years’ work, the wing design was optimised while not straying too far from the 2017-2018 design. The focus was on the design and optimisation of a new junction, splitting the wing into two, and the fuselage. A new design of a lighter empennage, although quite resistant in torsion, was equally developed. 
@@ -13,4 +14,4 @@ At the SAE West competition, the aircraft performed exactly as the new performan
 
 ![](https://res.cloudinary.com/decninixz/image/upload/v1595355684/avion_cargo_site_web_full_res-2760_pjnddr.jpg)
 
-![](https://res.cloudinary.com/decninixz/image/upload/v1595360184/avion_cargo_site_web_full_res-0120-2_mk8aoe.jpg)
+![](https://res.cloudinary.com/decninixz/image/upload/v1598149777/avion_cargo_site_web_full_res-1150115_du4gg1.jpg)

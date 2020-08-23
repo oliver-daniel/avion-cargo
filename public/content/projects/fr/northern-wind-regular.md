@@ -1,6 +1,7 @@
 ---
-title: Northern Wind - Regular
+title: Northern Wind
 date: "2016"
+class: regular
 language: fr
 ---
 La troisième année du défi de 2014, le Northern Wind est la version optimisé de ses prédécesseurs, Skyron et Aeolus. Un monoplan en aile haute avec un empennage en H, le Northern Wind a un aérodynamique amélioré avec sa traînée minimisé grâce à la recherche  qu’a fait l’équipe. Avec Laura Sab Leblanc comme capitaine d’équipe, le Northern Wind avait un cargaison maximale de 26.6 livres. 

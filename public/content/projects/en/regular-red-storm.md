@@ -1,6 +1,7 @@
 ---
-title: Regular - Red Storm
+title: Red Storm
 date: "2008"
+class: regular
 language: en
 ---
 In the context of a challenge limiting the dimensions of the aircraft, the Polytechnique Montreal team brought forward their creativity and ingenuity with the Red Storm. The biplane met all the constraints of the competition, the sum of the length, width and height of the airplane did not exceed 175 inches. With its carbon fiber and balsa wings and a large cargo bay volume, the Red Storm performed well within its category. The team, led by Vincent-Olivier Philie, finished 1st overall in the regular class. 

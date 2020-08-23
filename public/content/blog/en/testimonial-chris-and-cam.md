@@ -1,5 +1,5 @@
 ---
-title: Testimonial - Chris and Cam
+title: Testimonial - Cris and Cam
 author: Camila Diaz and Cristiana Deac
 language: en
 publish_date: "'2020-07-21'"

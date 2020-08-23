@@ -1,6 +1,7 @@
 ---
-title: S-Cargo - Regular
+title: "S-Cargo "
 date: "2019"
+class: regular
 language: fr
 ---
 En 2018-2019, le regular devait toujours transporter des balles de tennis et plaques d’acier pour représenter des passagers et leurs bagages. En construisant sur les apprentissages des années précédentes, le design d’aile fut légèrement optimisé, mais restera sensiblement le même que 2017-2018. L’accent fut mis sur le design et l’optimisation d’une nouvelle jonction entre les ailes (séparées en 2) et le fuselage. Un nouveau design d’empennage léger mais résistant en torsion fut également développé.
@@ -13,4 +14,4 @@ En compétition SAE West, l’Avion rencontra avec succès les nouvelles évalua
 
 ![](https://res.cloudinary.com/decninixz/image/upload/v1595355684/avion_cargo_site_web_full_res-2760_pjnddr.jpg)
 
-![](https://res.cloudinary.com/decninixz/image/upload/v1595360184/avion_cargo_site_web_full_res-0120-2_mk8aoe.jpg)
+![](https://res.cloudinary.com/decninixz/image/upload/v1598149777/avion_cargo_site_web_full_res-1150115_du4gg1.jpg)

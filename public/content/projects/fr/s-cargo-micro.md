@@ -1,6 +1,7 @@
 ---
-title: S-Cargo - Micro
+title: S-Cargo
 date: "2018"
+class: micro
 language: fr
 ---
 Le défi de l’année 2017-2018 était nouveau pour tous comme il s’agissait d’un changement de règles. L’avion de petit taille devait être conçu pour être rangé dans une petite boîte à chaussure et pouvant être assembler rapidement. De plus, sa charge utile était très volumineuse: tuyaux de PVC en plastique de 2” de diamètre.
