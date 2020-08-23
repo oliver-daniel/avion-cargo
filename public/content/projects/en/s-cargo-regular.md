@@ -1,6 +1,7 @@
 ---
-title: S-Cargo - Regular
+title: S-Cargo
 date: "2019"
+class: regular
 language: en
 ---
 In 2018-2019, the regular team was still transporting tennis balls and steel plates to represent passengers and their baggage. Building off of previous years’ work, the wing design was optimised while not straying too far from the 2017-2018 design. The focus was on the design and optimisation of a new junction, splitting the wing into two, and the fuselage. A new design of a lighter empennage, although quite resistant in torsion, was equally developed. 
