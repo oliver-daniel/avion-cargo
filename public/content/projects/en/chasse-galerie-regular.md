@@ -1,6 +1,7 @@
 ---
-title: Chasse-Galerie - Regular
+title: Chasse-Galerie
 date: "2020"
+class: regular
 language: en
 ---
 2019-2020 was the first of the three year cycle of the regular class rules, a challenge where the aircraft: 
