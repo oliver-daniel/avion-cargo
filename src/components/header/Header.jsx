@@ -5,12 +5,18 @@ import routes from "../routes";
 
 const handleLanguageChange = (i18n) => ({ target: { lang: targetLang } }) => {
   const route = window.location.pathname.split("/").slice(1);
+  i18n.changeLanguage(targetLang);
 
   if (route.length === 1) {
     i18n.changeLanguage(targetLang);
     return Router.replace("/[lang]", `/${targetLang}`);
   } else if (route[1] === "blog") {
-    return Router.replace("/[lang]/[blog]", `/${targetLang}/blog`, {shallow: true});
+    return Router.replace("/[lang]/blog", `/${targetLang}/blog`);
+  } else if (route[1] === "proj") {
+    return Router.replace(
+      "/[lang]/[route]",
+      targetLang === "en" ? "/en/projects" : "/fr/projets"
+    );
   }
 
   const lang = i18n.language.split("-")[0];
@@ -21,7 +27,7 @@ const handleLanguageChange = (i18n) => ({ target: { lang: targetLang } }) => {
   const dest = routes[key][targetLang].href;
 
   const url = `/${targetLang}/${dest}`;
-  i18n.changeLanguage(targetLang);
+  
   Router.replace("/[lang]/[route]", url, { shallow: false });
 };
 
@@ -46,7 +52,7 @@ const LanguageSwitch = ({ i18n }) => (
 );
 
 const Header = ({ i18n, t, tReady }) => (
-  <header id="Header" className="row between-xs middle-xs">
+  <div id="header" className="row between-xs middle-xs">
     {tReady && (
       <>
         <div className="col-xs-12 col-sm-10 col-sm-offset-1">
@@ -73,7 +79,7 @@ const Header = ({ i18n, t, tReady }) => (
         </div>
       </>
     )}
-  </header>
+  </div>
 );
 
 export default withTranslation()(Header);

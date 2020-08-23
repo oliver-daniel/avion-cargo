@@ -2,27 +2,29 @@ import Markdown from "../../utils/markdown";
 import { Trans } from "react-i18next";
 import Link from "next/link";
 
-const ProjectCard = ({ content: src, data: { title, date } }) => {
+const ProjectCard = ({ content: src, data: { title, date, slug, language } }) => {
   const first_image = src.match(/\!\[.*\]\((.+)\)/);
   return (
-    <div className="card">
-      <div className="details">
-        {first_image && (
-          <div
-            className="media"
-            style={{
-              backgroundImage: `url('${first_image[1]}')`,
-            }}
-          />
-        )}
-        <div className="title">{title}</div>
-        <div className="subtitle">{date}</div>
-        <Markdown source={src} />
-        <div className="see-more">
-          <Trans>SEE MORE</Trans>
+    <Link href="/[lang]/proj/[slug]" as={`/${language}/proj/${slug}`}>
+      <div className="card">
+        <div className="details">
+          {first_image && (
+            <div
+              className="media"
+              style={{
+                backgroundImage: `url('${first_image[1]}')`,
+              }}
+            />
+          )}
+          <div className="title">{title}</div>
+          <div className="subtitle">{date}</div>
+          <Markdown source={src} />
+          <div className="see-more">
+            <Trans>SEE MORE</Trans>
+          </div>
         </div>
       </div>
-    </div>
+    </Link>
   );
 };
 

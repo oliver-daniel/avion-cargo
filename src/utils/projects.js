@@ -21,7 +21,25 @@ export function getProjectsByLanguage(lang) {
         );
         return {
             content,
-            data
+            data: {
+                ...data,
+                slug: filename.replace('.md', '')
+            }
         }
     })
+};
+
+export function getProject(lang, slug) {
+    const PROJECTS_DIR = `public/content/projects/${lang}`;
+    const {
+        content,
+        data
+    } = matter.read(
+        path.join(PROJECTS_DIR, `${slug}.md`)
+    );
+
+    return {
+        content,
+        data
+    }
 };

@@ -62,3 +62,11 @@
         }
     }
 }
+
+.project-details {
+    h1+.details {
+        margin-top: -0.8em;
+        margin-left: 0.5em;
+        font-variant: small-caps;
+    }
+}
