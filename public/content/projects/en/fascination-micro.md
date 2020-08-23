@@ -1,6 +1,7 @@
 ---
-title: Fascination - Micro
+title: Fascination
 date: "2011"
+class: micro
 language: en
 ---
 Avion Cargo’s first year in the micro class, Fascination was a strong competitor that put Polytechnique on the map in this category. With the challenges of fitting into a box with limited dimensions, to meet the minimum size requirement of the cargo bay and to be assembled in less than three minutes, the team had plenty of work ahead of them to establish Avion Cargo’s presence in the micro class. Fascination was a monoplane with a high wing, an empty weight of 1.52 pounds and a maximum payload of 6.8 pounds. The team finished 3rd in design and 7th overall. 
