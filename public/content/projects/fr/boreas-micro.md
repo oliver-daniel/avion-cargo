@@ -1,6 +1,7 @@
 ---
-title: Boreas - Micro
+title: Boreas
 date: "2019"
+class: micro
 language: fr
 ---
 Le défi de la classe micro lors de l’année 2018-2019 était le même qu’en 2019-2020, soit l’avion conçu pour être désassemblé et rangé dans une boîte, avec une charge utile qui prend la forme de tubes de PVC.
