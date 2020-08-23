@@ -1,0 +1,13 @@
+#projects,
+#projets {
+    .well {
+        padding: 15px;
+        .card {
+            max-height: 200px;
+            overflow: hidden;
+            & + .card {
+                margin-top: 15px;
+            }
+        }
+    }
+}

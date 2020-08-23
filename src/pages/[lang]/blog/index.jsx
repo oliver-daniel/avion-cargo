@@ -7,9 +7,8 @@ import moment from "moment";
 
 const VerticalCard = ({
   content,
-  data: { author, publish_date, slug, thumbnail, title },
+  data: { author, locale_relative_date: date, slug, thumbnail, title },
 }) => {
-  const date = moment(publish_date).fromNow();
   return (
     <Link href="blog/[slug]" as={`blog/${slug}`}>
       <div className="card">
@@ -49,9 +48,9 @@ const BlogPage = ({ posts }) => (
         }}
       />
       <div className="content">
-        <h1>
+        <h2>
           <Trans>Latest updates</Trans>
-        </h1>
+        </h2>
         <div className="row well">{posts?.map(VerticalCard) || null}</div>
       </div>
     </Page>
@@ -62,6 +61,14 @@ export default withTranslation()(BlogPage);
 
 export async function getStaticProps({ params }) {
   const posts = getPostsByLanguage(params.lang);
+  moment.locale(params.lang);
+
+  posts.forEach((post) => {
+    post.data.locale_relative_date = moment(
+      post.data.publish_date.slice(1, -1)
+    ).fromNow();
+  });
+
   return {
     props: {
       ...params,
