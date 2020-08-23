@@ -1,6 +1,7 @@
 ---
-title: Spirit of St. Poly - Regular
+title: Spirit of St. Poly
 date: "2018"
+class: regular
 language: fr
 ---
 Le but de la compétition de cette année était de transporter des balles de tennis faisant office de passager ainsi que des plaques d’acier faisant office de bagages. L’avion regular de 2017-2018 a complètement changé sa configuration par rapport à l’avion de l’année précédente. À la place d’un plan vertical de balles, les balles de tennis étaient placées à l’horizontal. L’avion était plus large, mais moins sensible aux vents de travers. 
