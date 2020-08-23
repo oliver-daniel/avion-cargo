@@ -1,6 +1,7 @@
 ---
-title: Chasse-Galerie - Regular
+title: Chasse-Galerie
 date: "2020"
+class: regular
 language: fr
 ---
 L’année 2019-2020 était la première de trois années avec les règles actuelles de la compétition SAE, soit un défi où l’avion:
