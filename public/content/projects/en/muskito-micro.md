@@ -1,6 +1,7 @@
 ---
-title: Muskito - Micro
+title: Muskito
 date: "2020"
+class: micro
 language: en
 ---
 This year’s micro class was the third year of the PVC tube challenge. The challenges of the project included:
