@@ -1,6 +1,7 @@
 ---
-title: Muskito - Micro
+title: Muskito
 date: "2020"
+class: micro
 language: fr
 ---
 Cette année était la troisième et dernière année du défi des tubes de PVC. Le projet comportait entre autres les défis suivants: 
