@@ -83,10 +83,11 @@ ul {
             margin-top: 1em;
         }
 
-        p,
+        [class^=col]>p,
         img,
         aside {
             max-width: 75ch;
+            display: block;
             margin: 0.5em auto;
         }
 
@@ -96,8 +97,6 @@ ul {
         }
 
         aside {
-            max-width: 78ch;
-
             &::before {
                 left: -10px;
             }
@@ -137,4 +136,16 @@ ul {
     border-radius: 12px;
     background: $grey-500;
     box-shadow: inset 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+@media screen and (max-width: $sm) {
+    h1 {
+        font-size: 1em;
+    }
+
+    [class^=col]>p,
+    img,
+    aside {
+        max-width: 90vw !important;
+    }
 }
