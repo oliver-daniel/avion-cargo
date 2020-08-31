@@ -1,5 +1,5 @@
 ---
-title: S-Cargo
+title: Less-Cargo
 date: "2018"
 class: micro
 language: en
