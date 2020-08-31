@@ -97,10 +97,16 @@ Polytechnique Montréal is an engineering school renowned worldwide for the qual
 
 
 \
-\[TeraXion] https://www.teraxion.com/en/
+[TeraXion ](https://www.teraxion.com/en/)
+
+![](https://res.cloudinary.com/decninixz/image/upload/v1598878595/Teraxion_ysuodp.png)
 
 TeraXion is a Québec-based company that develops and manufactures “innovative photonic components that incorporate fiber Bragg gratings, low noise lasers and integrated photonics”. It participates in the industries of telecommunications, medical appliances, aerospace and defense. 
+
+
 \
-\[Universel] https://unisafetyshop.com/ 
+[Universel](https://unisafetyshop.com/) 
+
+![](https://res.cloudinary.com/decninixz/image/upload/v1598878595/universel_security_02_xxwgjm.jpg)
 
 UniSafetyShop is a distributor of protective equipment based in Montreal. It distributes twelve different brands and offers protective footwear, workwear, medical equipment and personal protection equipment.
