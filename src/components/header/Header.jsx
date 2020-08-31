@@ -19,7 +19,7 @@ const handleLanguageChange = (i18n) => ({ target: { lang: targetLang } }) => {
     );
   }
 
-  const lang = i18n.language.split("-")[0];
+  const lang = route[0];
 
   const key = Object.keys(routes).find(
     (k) => routes[k][lang].href === route[1]
