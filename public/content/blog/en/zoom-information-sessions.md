@@ -9,13 +9,8 @@ Are you thinking about joining Avion Cargo, the best technical student associati
 
 The days and times are:
 
-* Thursday September 3rd:
-
-  * 12:45 pm
-  * 6:30 pm
-* Thursday September 10th:
-
-  * 12:45 pm
+* Thursday September 3rd: 12:45 pm and 6:30 pm
+* Thursday September 10th: 12:45 pm
 
 We will share the Zoom links on our social media the day of!
 
