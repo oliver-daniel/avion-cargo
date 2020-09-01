@@ -9,14 +9,11 @@ Pensez-vous participer à l’Avion Cargo, la meilleure société technique du l
 
 Les dates et heures sont: 
 
-* Jeudi 3 septembre:
+* Jeudi 3 septembre: 12h45 et 18h30
+* Jeudi 10 septembre: 12h45
 
-  * 12h45
-  * 18h30
-* Jeudi 10 septembre: 
 
-  * 12h45
-    Nous allons partager le lien des Zooms sur nos réseaux sociaux la journée même! 
+  Nous allons partager le lien des Zooms sur nos réseaux sociaux la journée même! 
 
 Également, le 10 septembre à 18h30 nous aimerions vous rencontrer en personne, le lieu est à déterminer, pour débuter notre scavenger hunt, *les jeux géniaux d'Avion Cargo*! Plus de détails à venir!
 
