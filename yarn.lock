@@ -935,6 +935,11 @@
     lodash "^4.17.13"
     to-fast-properties "^2.0.0"
 
+"@corex/deepmerge@^2.4.6":
+  version "2.4.6"
+  resolved "https://registry.yarnpkg.com/@corex/deepmerge/-/deepmerge-2.4.6.tgz#0dfc3973f41e88862825e8a2f1eb5f84ca5fe564"
+  integrity sha512-iSp8KAgtQBZpUrOnaKkn2oRMsSru50g5saizb4ZwGHccFylH7XrNvzuf86M94O/uqNkk9NxaCbkVC372ms2RPQ==
+
 "@mrmlnc/readdir-enhanced@^2.2.1":
   version "2.2.1"
   resolved "https://registry.yarnpkg.com/@mrmlnc/readdir-enhanced/-/readdir-enhanced-2.2.1.tgz#524af240d1a360527b730475ecfa1344aa540dde"
@@ -4864,6 +4869,13 @@ next-optimized-images@^2.6.1:
     img-loader "^3.0.1"
     raw-loader "^2.0.0"
     url-loader "^1.1.2"
+
+next-sitemap@^1.2.4:
+  version "1.2.4"
+  resolved "https://registry.yarnpkg.com/next-sitemap/-/next-sitemap-1.2.4.tgz#6f4b94563da26133f265920ab9779c15e49639eb"
+  integrity sha512-Dpitr8mdRpdpEj7iE/3llrAw/uHK0UB6zf68FX3Zxlt5DvdxzwtXzbQc8s6V6DPtOvwfctj5LXvQr+C4NEpImw==
+  dependencies:
+    "@corex/deepmerge" "^2.4.6"
 
 next-tick@~1.0.0:
   version "1.0.0"
