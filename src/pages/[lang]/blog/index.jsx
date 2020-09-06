@@ -51,7 +51,16 @@ const BlogPage = ({ posts }) => (
         <h2>
           <Trans>Latest updates</Trans>
         </h2>
-        <div className="row well">{posts?.map(VerticalCard) || null}</div>
+        <div className="row well">
+          {posts
+            ?.sort(
+              (
+                { data: { publish_date: a_date } },
+                { data: { publish_date: b_date } }
+              ) => b_date.localeCompare(a_date)
+            )
+            .map(VerticalCard) || null}
+        </div>
       </div>
     </Page>
   </>

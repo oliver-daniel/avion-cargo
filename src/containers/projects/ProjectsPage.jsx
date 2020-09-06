@@ -5,7 +5,7 @@ import Link from "next/link";
 const ProjectCard = ({ content: src, data: { title, date, slug, language } }) => {
   const first_image = src.match(/\!\[.*\]\((.+)\)/);
   return (
-    <Link href="/[lang]/proj/[slug]" as={`/${language}/proj/${slug}`}>
+    <Link href="/[lang]/proj/[slug]" as={`/${language}/proj/${slug}`} prefetch={false}>
       <div className="card">
         <div className="details">
           {first_image && (

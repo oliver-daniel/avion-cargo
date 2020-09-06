@@ -28,9 +28,6 @@ Fondé en 1900, Desjardins sert présentement plus de 7 millions de clients et c
 ![](https://res.cloudinary.com/decninixz/image/upload/v1598878595/logo-sp-16-1024x1024_rwbsfv.png)
 Le Fonds d’Appui aux Initiatives Étudiants est un comité d’étudiants qui travaillent à travers l’Association Étudiante de Polytechnique pour financer les projets des étudiants à Polytechnique. La comité est compris des étudiants de Polytechnique qui sont engagés à aider leurs collègues dans leurs initiatives. 
 
-
-
-
 [Isolofoam](https://isolofoam.com/fr/) 
 ![](https://res.cloudinary.com/decninixz/image/upload/v1598878594/logo-isolofoam_bcji2i.png)
 Isolofoam est une compagnie québécoise qui manufacture des produits éco-résponsable et d’haute qualité en EPS. Ils servent les domaines de bâtiments, d'ingénierie civil et d’emballage. 
