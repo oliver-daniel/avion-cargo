@@ -1,7 +1,7 @@
 ---
 title: Projet d'été - guide de fibre de carbone
 author: Alexis Basset
-language: en
+language: fr
 publish_date: "'2020-07-27'"
 thumbnail: https://res.cloudinary.com/decninixz/image/upload/v1599599555/IMG_20200227_194418_jmk37o.jpg
 ---
