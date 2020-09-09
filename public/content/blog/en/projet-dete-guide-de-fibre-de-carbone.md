@@ -1,5 +1,5 @@
 ---
-title: Projet d'été - guide de fibre de carbone
+title: "Projet d'été - guide de fibre de carbone "
 author: Alexis Basset
 language: fr
 publish_date: "'2020-07-27'"
