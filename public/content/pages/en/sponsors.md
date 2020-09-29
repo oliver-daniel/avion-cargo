@@ -1,5 +1,5 @@
 ---
-title: About us - 2
+title: Sponsors
 language: en
 ---
 Avion Cargo Polytechnique would never be able to accomplish our projects without the help of our wonderful sponsors. All of our successes and victories are thanks to their generosity. We are immensely grateful to have them as part of our team. 
