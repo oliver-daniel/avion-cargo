@@ -20,6 +20,26 @@ APC propellers was founded in 1989 in California, USA. It produces propellers fo
 ![](https://res.cloudinary.com/decninixz/image/upload/v1598878594/APN_lcbdxn.png)
 APN Global is a group of six companies specialised in the manufacturing of complex components for the aeronautical, defense, biological sciences and commercial industries. In 2018, it won the SME of the year in aerospace at the Grand Prix Gilles-Demers 2018. APN Global has a reputation of creating high quality pieces and is certified to the highest standards in Canada. 
 
+
+
+[Bell Helicopter Textron](https://www.bellflight.com/company/about) 
+
+![](https://res.cloudinary.com/decninixz/image/upload/v1598878594/1200px-Bell_logo_2018.svg_dqpmvk.png)
+
+
+Bell helicopters is a forward-thinking company that designs specialised aircrafts. The first company world-wide to certify a commercial helicopter and equally the first to break the sound barrier, Bell has a history rich in innovation. Bell serves clients in over 120 different countries. 
+
+
+
+[Dassault Systems ](https://www.3ds.com/about-3ds/)
+
+![](https://res.cloudinary.com/decninixz/image/upload/v1601405532/Dassault-Syst-mes-Logo_f7amvo.png)
+
+
+A technology company that serves clients in over 140 countries, Dassault Systems is the home of 3DExperience. Dassault provides several kinds of software, such as 3D modeling, materials analysis and project management. 
+
+
+
 [Desjardins](https://www.desjardins.com/ca/) 
 ![](https://res.cloudinary.com/decninixz/image/upload/v1598878594/Desjardins_logo_jlhwup.png)
 Founded in 1900, Desjardins currently services more than 7 million clients and employs over 45 000 employees. It is amongst the top 100 employers in Canada and is the first financial cooperative in the country. Desjardins holds community and simplicity as its core values. It contributes to its community through sustainability initiatives and financial education programs. 
