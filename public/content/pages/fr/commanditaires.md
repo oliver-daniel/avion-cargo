@@ -1,5 +1,5 @@
 ---
-title: L'équipe - 2
+title: Commanditaires
 language: fr
 ---
 Avion Cargo Polytechnique ne pourra jamais accomplir nos projets sans l’aide de nos merveilleux commanditaires. Tous nos succès et victoires sont grâce à leur générosité. Nous tenons de vous informer!
@@ -19,6 +19,26 @@ APC propellers a été fondé en 1989 et est basée en Californie, USA. Elle pro
 [APN Global](http://apnglobal.ca/fr/)
 ![](https://res.cloudinary.com/decninixz/image/upload/v1598878594/APN_lcbdxn.png)
 APN Global est un groupe de six compagnies spécialisées dans la fabrication de pièces complexes pour les domaines de l’aéronautique, de la défense, des sciences biologiques et du secteur commercial. En 2018, elle a gagné le SME de l’année en aérospatiale au Grand Prix Gilles-Demers 2018. APN Global a une réputation de concevoir des pièces de très haute qualité et est certifié selon les plus hauts standards au Canada.
+
+
+
+[Bell hélicoptères Textron](https://www.bellflight.com/company/about)
+
+![](https://res.cloudinary.com/decninixz/image/upload/v1598878594/1200px-Bell_logo_2018.svg_dqpmvk.png)
+
+
+Bell hélicoptères est une entreprise novatrice qui fait la conception des aéronefs spécialisés. La première compagnie au monde à certifier un hélicoptère commercial et également la première à briser le mur du son, Bell a une histoire riche en innovation. Elle a une base de clientèle en 120 différents pays.
+
+
+
+[Dassault Systèmes ](https://www.3ds.com/about-3ds/)
+
+![](https://res.cloudinary.com/decninixz/image/upload/v1601405532/Dassault-Syst-mes-Logo_f7amvo.png)
+
+
+Une compagnie de technologie qui sert des clients dans plus de 140 pays, Dassault Systèmes est le siège de 3DExpérience. Dassault fournit plusieurs types de logiciels, notamment des logiciels de modélisation 3D, d’analyses de résistance des matériaux et de gestion de projet. 
+
+
 
 [Desjardins](https://www.desjardins.com/index.jsp)
 ![](https://res.cloudinary.com/decninixz/image/upload/v1598878594/Desjardins_logo_jlhwup.png)
