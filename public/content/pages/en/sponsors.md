@@ -26,15 +26,11 @@ APN Global is a group of six companies specialised in the manufacturing of compl
 
 Bell helicopters is a forward-thinking company that designs specialised aircrafts. The first company world-wide to certify a commercial helicopter and equally the first to break the sound barrier, Bell has a history rich in innovation. Bell serves clients in over 120 different countries. 
 
-
-
 [Dassault Systems ](https://www.3ds.com/about-3ds/)
 
 ![](https://res.cloudinary.com/decninixz/image/upload/v1601405532/Dassault-Syst-mes-Logo_f7amvo.png)
 
 A technology company that serves clients in over 140 countries, Dassault Systems is the home of 3DExperience. Dassault provides several kinds of software, such as 3D modeling, materials analysis and project management. 
-
-
 
 [Desjardins](https://www.desjardins.com/ca/) 
 ![](https://res.cloudinary.com/decninixz/image/upload/v1598878594/Desjardins_logo_jlhwup.png)
