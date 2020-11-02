@@ -1,5 +1,5 @@
 ---
-title: Améliorer le modèle de simulation de vol
+title: Le casse-tête des analyses aérodynamiques-performances
 author: Hugo-Alexandre Latulippe
 language: fr
 publish_date: "'2020-10-31'"
@@ -11,4 +11,4 @@ Cet été, notre but était d’évaluer les performances réelles de l’avion 
 
 La prochaine étape fut de faire un bilan de force sur l’avion. En connaissant la poussée et la masse, nous avons pu estimer la traînée et la portance, et ainsi mettre à l’épreuve nos modèles de simulation. En plus de mettre à l’épreuve la précision de notre modèle, nous y avons ajouté le fruit d’une analyse probabiliste des vents sur les lieux de compétition selon la période dans l’année, pour que l’effet du vent puisse être tenu en compte dans la simulation à un certain degré de confiance. 
 
-![](https://res.cloudinary.com/decninixz/image/upload/v1604185520/vol_6_29fps_15_frame_between_ogi9ny.png)
+![](https://res.cloudinary.com/decninixz/image/upload/v1604328527/avion_cargo_site_web_full_res-08938_jsvnkn.jpg)
