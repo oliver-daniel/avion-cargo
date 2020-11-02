@@ -2,7 +2,7 @@
 title: The jigsaw puzzle of aerodynamics and performances analyses
 author: Hugo-Alexandre Latulippe
 language: en
-publish_date: "'2020-11-02'"
+publish_date: "'2020-10-31'"
 thumbnail: https://res.cloudinary.com/decninixz/image/upload/v1604185174/MicrosoftTeams-image_vq8fpq.png
 ---
 The job of a member of the aero-perfo-prop team is to globally define the characteristics of the airplane, such as the major dimensions, the geometries and the loading. To do so, we base ourselves on the pointage formula of the competition. Then, MATLAB programs developed by team members execute plenty of calculations and select the configuration with the most potential. From there, we choose the concept and reiterate the programs to validate our choice. To ensure that these models are functioning well, we validate against our previous flight tests.
