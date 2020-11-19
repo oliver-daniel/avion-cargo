@@ -60,6 +60,10 @@ Fondée en 1969 à Montréal, Polymos est une compagnie qui se spécialise en pl
 ![](https://res.cloudinary.com/decninixz/image/upload/v1598880934/1200px-_C3_89cole_Polytechnique_de_Montr_C3_A9al_Logo.svg_lzso09.png)
 Polytechnique Montréal est une université d'ingénierie reconnue mondialement pour la qualité d'enseignement et la recherche en génie. Elle a une vie étudiante très active avec 20 sociétés techniques et plusieurs autres sociétés étudiantes. Sa mission est de former les ingénieurs du futur.
 
+[Scorpion](https://www.scorpionsystem.com/)
+![](https://res.cloudinary.com/decninixz/image/upload/v1605818942/scorpion-product_big_xunpwp.png)
+Scorpion est une entreprise dédiée à fournir des moteurs électriques et des contrôleurs de vitesse électriques aux fabricants d’aéronefs téléguidés, que ce soit pour le sport ou pour des compétitions. Sa mission est d’offrir la plus grande sélection de moteurs, contrôleurs de vitesse et accessoires tout en assurant la satisfaction de leurs clients. 
+
 [Teraxion](https://www.teraxion.com/fr/)
 ![](https://res.cloudinary.com/decninixz/image/upload/v1598878595/Teraxion_ysuodp.png)
 TeraXion est une compagnie québécoise de développement et fabrication de “composants novateurs incorporant réseaux de Bragg sur fibre, lasers à faible bruit et éléments photoniques intégrés”. Elle participe dans les industries de télécommunications, des appareils médicaux, de l’aérospatiale et de la défense. 
