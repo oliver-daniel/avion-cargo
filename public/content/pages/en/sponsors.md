@@ -60,6 +60,10 @@ Founded in 1969, in Montreal, Polymos is a company that specializes in expanded 
 ![](https://res.cloudinary.com/decninixz/image/upload/v1598880934/1200px-_C3_89cole_Polytechnique_de_Montr_C3_A9al_Logo.svg_lzso09.png)
 Polytechnique Montréal is an engineering school renowned worldwide for the quality of learning and research in engineering. It offers an active student life with its 20 technical student associations and many other student clubs. Its mission is to train the engineers of the future.
 
+[Scorpion](https://www.scorpionsystem.com/)
+![](https://res.cloudinary.com/decninixz/image/upload/v1605818942/scorpion-product_big_xunpwp.png)
+Scorpion is a company dedicated to providing electric motors and speed controllers to remote control hobbyists and competitors. Their mission is to offer the largest selection of brushless motors, speed controllers and accessories all while being committed to customer satisfaction. 
+
 [TeraXion](https://www.teraxion.com/en/)
 ![](https://res.cloudinary.com/decninixz/image/upload/v1598878595/Teraxion_ysuodp.png)
 TeraXion is a Québec-based company that develops and manufactures “innovative photonic components that incorporate fiber Bragg gratings, low noise lasers and integrated photonics”. It participates in the industries of telecommunications, medical appliances, aerospace and defense. 
