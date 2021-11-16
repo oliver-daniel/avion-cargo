@@ -10,4 +10,4 @@ The year 2020-2021 for the micro class has been a big change, as new rules have 
 
 ![](https://i.ibb.co/f4QbQyn/micro3.jpg)
 
-![](https://i.ibb.co/Cmsp998/micro2.jpg)
+![](https://i.ibb.co/5rhG198/DSC09315.jpg)
