@@ -1,5 +1,5 @@
 ---
-name: Laurent Emond-Brunet - Structure and Aerodynamic analysis Adviser
+name: Laurent Emond-Brunet - Structure and Aerodynamic Analysis Adviser
 language: en
 picture: https://i.ibb.co/D4kRWsf/Microsoft-Teams-image-5.jpg
 ---
