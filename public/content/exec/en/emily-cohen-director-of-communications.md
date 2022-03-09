@@ -1,6 +1,6 @@
 ---
-name: Emily Cohen - Director Communications
+name: Emily Cohen - General Director
 language: en
-picture: https://res.cloudinary.com/decninixz/image/upload/v1595281393/Emily_red_bddgmy.jpg
+picture: https://i.ibb.co/c6wCdWc/PXL-20210612-143652896-PORTRAIT.jpg
 ---
-I manage all of the external communication of the association, from collaborating with other student associations within the Polytechnique community to updating our wonderful sponsors of our progress. I’m a second year student in aerospace engineering and this is my second year with Avion Cargo. My favourite aspect of our association is the amazing attitude that everyone has; I’ve never had so much fun learning.
+Hello Internet! As director general, I have the pleasure of working with all the departments of our student society to ensure that they have all the tools they need to reach their full potential. I prepare the schedules and the meeting agendas and after that, I prepare whatever the members need in order to do their magic: for example, organizing the flight tests or the design reviews with our sponsors. This is my third year at Polytechnique, in aerospace engineering, and my third year with Avion Cargo. The student society not only allowed me to grow as an individual and to gain more self-confidence, it also allowed me to watch my friends grow from shy freshmen into knowledgeable, creative and confident problem-solving students.
