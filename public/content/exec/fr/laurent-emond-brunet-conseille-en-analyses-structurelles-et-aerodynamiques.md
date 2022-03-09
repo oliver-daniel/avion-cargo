@@ -1,5 +1,5 @@
 ---
-name: Laurent Emond-Brunet - Conseille en analyses structurelles et aérodynamiques
+name: Laurent Emond-Brunet - Conseille en Analyses Structurelles et Aérodynamiques
 language: fr
 picture: https://i.ibb.co/D4kRWsf/Microsoft-Teams-image-5.jpg
 ---
