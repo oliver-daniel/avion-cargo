@@ -1,5 +1,5 @@
 ---
-name: Kadem Aquachar - Gestionnaire Structure
+name: Kadem Aquachchar - Gestionnaire Structure
 language: fr
 picture: https://i.ibb.co/rw9yDXp/Microsoft-Teams-image-6.jpg
 ---
