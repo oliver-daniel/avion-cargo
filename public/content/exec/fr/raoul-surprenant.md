@@ -1,5 +1,5 @@
 ---
-name: Raoul Surprenant -
+name: Raoul Surprenant - Responsable Design
 language: fr
 picture: https://i.ibb.co/4Znv06g/siteweb-RS.jpg
 ---
