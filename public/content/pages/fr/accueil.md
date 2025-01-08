@@ -1,5 +1,5 @@
 ---
-title: Page d'acceuil
+title: Page d'accueil
 language: fr
 ---
 # Bienvenue sur la page de l’**Avion Cargo Polytechnique Montréal**!
