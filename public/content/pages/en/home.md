@@ -8,4 +8,4 @@ Welcome to Avion Cargo Polytechnique Montréal! We are a family of students, eng
 
 ### Advanced Class
 
-\[Content update soon]
+\[Content update soon] modif
